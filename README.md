@@ -44,5 +44,30 @@ npm install
 npm run dev:full
 
 # Or start them separately:
+
+# Run tests
+npm test
+
+# Run tests with UI
+npm run test:ui
+
+# Run tests with coverage
+npm run test:coverage
+
+src/
+├── components/     # Reusable UI components
+├── pages/          # Page components
+├── hooks/          # Custom React hooks
+├── services/       # API services (Axios)
+├── types/          # TypeScript type definitions
+├── utils/          # Utility functions
+├── validations/    # Zod validation schemas
+└── config/         # App configuration
+
+This is the modern TypeScript version of my ERP project.
+
+Previous version (archived): frontEnd-erp-ui
+
+Key improvements: React Query for data fetching, React Hook Form + Zod, comprehensive testing, code quality tools
 npm run server  # json-server on port 5000
 npm run dev     # Vite dev server

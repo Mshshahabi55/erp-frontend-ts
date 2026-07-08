@@ -1,0 +1,4573 @@
+{
+  "customers": [
+    {
+      "name": "John Doe",
+      "id": "1",
+      "email": "john.doe@example.com",
+      "phone": "+1234567890",
+      "company": "Acme Inc",
+      "address": "123 Main Street, New York, NY 10001",
+      "isActive": true,
+      "createdAt": "2024-01-15T10:30:00Z"
+    },
+    {
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "phone": "+1987654321",
+      "company": "TechCorp",
+      "address": "456 Oak Avenue, Los Angeles, CA 90001",
+      "isActive": false,
+      "updatedAt": "2026-07-05T09:52:18.387Z",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "phone": "+1122334455",
+      "company": "Global Solutions",
+      "address": "789 Pine Road, Chicago, IL 60601",
+      "isActive": false,
+      "createdAt": "2024-02-01T09:15:00Z",
+      "updatedAt": "2026-07-07T12:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "name": "Alice Brown",
+      "email": "alice.brown@example.com",
+      "phone": "+1555666777",
+      "company": "Creative Studio",
+      "address": "321 Elm Street, Miami, FL 33101",
+      "isActive": true,
+      "createdAt": "2024-02-10T16:20:00Z"
+    },
+    {
+      "id": "5",
+      "name": "Charlie Wilson",
+      "email": "charlie.wilson@example.com",
+      "phone": "+1999888777",
+      "company": "Innovation Labs",
+      "address": "654 Maple Drive, Seattle, WA 98101",
+      "isActive": true,
+      "createdAt": "2024-02-15T11:00:00Z"
+    },
+    {
+      "name": "Mohammad Shahabihamzekolahei",
+      "email": "mshshahabi55@gmail.com",
+      "phone": "+358449538728",
+      "company": "free1",
+      "address": "Palosaarentie",
+      "isActive": true,
+      "updatedAt": "2026-07-07T04:57:37.256Z",
+      "id": "P9HBga_AZ2k"
+    },
+    {
+      "name": "Bahareh mahdavi resketi",
+      "email": "bmahdavi2025@gmail.com",
+      "phone": "+35844958891",
+      "company": "TechCorp",
+      "address": "Abo Akademi University",
+      "isActive": true,
+      "createdAt": "2026-07-06T04:30:50.191Z",
+      "id": "V3rb8Atm8i4"
+    },
+    {
+      "id": "6",
+      "name": "Sarah Miller",
+      "email": "sarah.miller@brightpath.com",
+      "phone": "+1 213 555 0142",
+      "company": "BrightPath Consulting",
+      "address": "88 Sunset Blvd, Los Angeles, CA 90028",
+      "isActive": true,
+      "createdAt": "2024-01-05T09:00:00Z"
+    },
+    {
+      "id": "7",
+      "name": "David Chen",
+      "email": "david.chen@nexawave.io",
+      "phone": "+1 415 555 0187",
+      "company": "NexaWave Technologies",
+      "address": "500 Market St, San Francisco, CA 94105",
+      "isActive": true,
+      "createdAt": "2024-01-08T10:15:00Z"
+    },
+    {
+      "id": "8",
+      "name": "Emily Davis",
+      "email": "emily.davis@greenfield.co",
+      "phone": "+1 617 555 0123",
+      "company": "Greenfield Organics",
+      "address": "12 Harvard Ave, Boston, MA 02134",
+      "isActive": false,
+      "createdAt": "2024-01-14T08:30:00Z"
+    },
+    {
+      "id": "9",
+      "name": "Michael Rodriguez",
+      "email": "m.rodriguez@atlasfreight.com",
+      "phone": "+1 713 555 0199",
+      "company": "Atlas Freight Logistics",
+      "address": "900 Texas Ave, Houston, TX 77002",
+      "isActive": true,
+      "createdAt": "2024-01-19T13:45:00Z"
+    },
+    {
+      "id": "10",
+      "name": "Laura Martinez",
+      "email": "laura.martinez@sunrisebakery.com",
+      "phone": "+1 305 555 0176",
+      "company": "Sunrise Bakery Co.",
+      "address": "45 Ocean Dr, Miami, FL 33139",
+      "isActive": true,
+      "createdAt": "2024-01-22T11:20:00Z"
+    },
+    {
+      "id": "11",
+      "name": "James Anderson",
+      "email": "james.anderson@pinnaclefinance.com",
+      "phone": "+1 212 555 0134",
+      "company": "Pinnacle Financial Group",
+      "address": "200 Park Ave, New York, NY 10166",
+      "isActive": false,
+      "createdAt": "2024-01-27T15:00:00Z"
+    },
+    {
+      "id": "12",
+      "name": "Sophia Lee",
+      "email": "sophia.lee@brightbyte.io",
+      "phone": "+1 206 555 0198",
+      "company": "BrightByte Software",
+      "address": "1201 3rd Ave, Seattle, WA 98101",
+      "isActive": true,
+      "createdAt": "2024-02-02T09:10:00Z"
+    },
+    {
+      "id": "13",
+      "name": "Daniel Kim",
+      "email": "daniel.kim@urbanretail.com",
+      "phone": "+1 312 555 0111",
+      "company": "Urban Retail Partners",
+      "address": "233 S Wacker Dr, Chicago, IL 60606",
+      "isActive": true,
+      "createdAt": "2024-02-06T14:35:00Z"
+    },
+    {
+      "id": "14",
+      "name": "Olivia Garcia",
+      "email": "olivia.garcia@coastalimports.com",
+      "phone": "+1 619 555 0155",
+      "company": "Coastal Imports LLC",
+      "address": "750 B St, San Diego, CA 92101",
+      "isActive": true,
+      "createdAt": "2024-02-11T10:05:00Z"
+    },
+    {
+      "id": "15",
+      "name": "Matthew Thompson",
+      "email": "matthew.thompson@ironworks.com",
+      "phone": "+1 412 555 0167",
+      "company": "Ironworks Manufacturing",
+      "address": "100 Steel Plaza, Pittsburgh, PA 15222",
+      "isActive": false,
+      "createdAt": "2024-02-15T16:40:00Z"
+    },
+    {
+      "id": "16",
+      "name": "Isabella White",
+      "email": "isabella.white@lumenmedia.com",
+      "phone": "+1 404 555 0143",
+      "company": "Lumen Media Group",
+      "address": "55 Peachtree St, Atlanta, GA 30303",
+      "isActive": true,
+      "createdAt": "2024-02-20T08:50:00Z"
+    },
+    {
+      "id": "17",
+      "name": "Ryan Harris",
+      "email": "ryan.harris@summitgear.com",
+      "phone": "+1 720 555 0129",
+      "company": "Summit Outdoor Gear",
+      "address": "1550 Larimer St, Denver, CO 80202",
+      "isActive": true,
+      "createdAt": "2024-02-25T12:25:00Z"
+    },
+    {
+      "id": "18",
+      "name": "Ava Clark",
+      "email": "ava.clark@petalandstem.com",
+      "isActive": false,
+      "createdAt": "2024-03-01T09:55:00Z"
+    },
+    {
+      "id": "19",
+      "name": "Ethan Lewis",
+      "email": "ethan.lewis@quantumparts.com",
+      "phone": "+1 480 555 0114",
+      "company": "Quantum Auto Parts",
+      "address": "2100 E Camelback Rd, Phoenix, AZ 85016",
+      "isActive": true,
+      "createdAt": "2024-03-06T11:15:00Z"
+    },
+    {
+      "id": "20",
+      "name": "Mia Walker",
+      "email": "mia.walker@brightsmile.com",
+      "phone": "+1 214 555 0177",
+      "company": "BrightSmile Dental Supply",
+      "address": "1717 Main St, Dallas, TX 75201",
+      "isActive": true,
+      "createdAt": "2024-03-11T14:00:00Z"
+    },
+    {
+      "id": "21",
+      "name": "Alexander Young",
+      "email": "alexander.young@vertexbuild.com",
+      "phone": "+1 702 555 0192",
+      "company": "Vertex Construction",
+      "address": "3730 Las Vegas Blvd, Las Vegas, NV 89109",
+      "isActive": false,
+      "createdAt": "2024-03-16T09:30:00Z"
+    },
+    {
+      "id": "22",
+      "name": "Charlotte King",
+      "email": "charlotte.king@silverlinehr.com",
+      "phone": "+1 615 555 0146",
+      "company": "Silverline HR Solutions",
+      "address": "150 4th Ave N, Nashville, TN 37219",
+      "isActive": true,
+      "createdAt": "2024-03-21T13:20:00Z"
+    },
+    {
+      "id": "23",
+      "name": "Benjamin Wright",
+      "email": "benjamin.wright@harborlogistics.com",
+      "phone": "+1 401 555 0138",
+      "company": "Harbor Logistics Inc",
+      "address": "20 Westminster St, Providence, RI 02903",
+      "isActive": true,
+      "createdAt": "2024-03-26T10:45:00Z"
+    },
+    {
+      "id": "24",
+      "name": "Amelia Scott",
+      "email": "amelia.scott@brewhousecafe.com",
+      "phone": "+1 512 555 0163",
+      "company": "Brewhouse Cafe Supply",
+      "address": "600 Congress Ave, Austin, TX 78701",
+      "isActive": true,
+      "createdAt": "2024-04-01T08:15:00Z"
+    },
+    {
+      "id": "25",
+      "name": "Lucas Green",
+      "email": "lucas.green@fieldstoneagri.com",
+      "isActive": false,
+      "createdAt": "2024-04-06T12:00:00Z"
+    },
+    {
+      "id": "26",
+      "name": "Grace Baker",
+      "email": "grace.baker@northstarins.com",
+      "phone": "+1 651 555 0159",
+      "company": "NorthStar Insurance Group",
+      "address": "30 E 7th St, St Paul, MN 55101",
+      "isActive": true,
+      "createdAt": "2024-04-11T15:35:00Z"
+    },
+    {
+      "id": "27",
+      "name": "Henry Nelson",
+      "email": "henry.nelson@copperkettle.com",
+      "phone": "+1 503 555 0184",
+      "company": "Copper Kettle Brewing",
+      "address": "210 NW Everett St, Portland, OR 97209",
+      "isActive": true,
+      "createdAt": "2024-04-16T09:50:00Z"
+    },
+    {
+      "id": "28",
+      "name": "Zoe Carter",
+      "email": "zoe.carter@velvethome.com",
+      "phone": "+1 469 555 0172",
+      "company": "Velvet Home Decor",
+      "address": "5000 Belt Line Rd, Dallas, TX 75254",
+      "isActive": true,
+      "createdAt": "2024-04-21T11:10:00Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop Pro",
+      "sku": "LP-001",
+      "category": "Electronics",
+      "price": 1299.99,
+      "stock": 45,
+      "unit": "pcs",
+      "description": "High-performance laptop with 16GB RAM, 512GB SSD",
+      "isAvailable": true,
+      "createdAt": "2024-01-10T08:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Wireless Mouse",
+      "sku": "WM-002",
+      "category": "Electronics",
+      "price": 29.99,
+      "stock": 120,
+      "unit": "pcs",
+      "description": "Ergonomic wireless mouse with Bluetooth 5.0",
+      "isAvailable": true,
+      "createdAt": "2024-01-12T09:30:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Office Chair",
+      "sku": "OC-003",
+      "category": "Furniture",
+      "price": 249.99,
+      "stock": 18,
+      "unit": "pcs",
+      "description": "Ergonomic office chair with lumbar support",
+      "isAvailable": true,
+      "createdAt": "2024-01-20T10:15:00Z"
+    },
+    {
+      "id": "4",
+      "name": "Coffee Maker",
+      "sku": "CM-004",
+      "category": "Appliances",
+      "price": 89.99,
+      "stock": 0,
+      "unit": "pcs",
+      "description": "Programmable coffee maker with thermal carafe",
+      "isAvailable": false,
+      "createdAt": "2024-02-01T14:00:00Z"
+    },
+    {
+      "id": "5",
+      "name": "Notebook Set",
+      "sku": "NS-005",
+      "category": "Office Supplies",
+      "price": 15.99,
+      "stock": 200,
+      "unit": "set",
+      "description": "Set of 5 premium notebooks with leather cover",
+      "isAvailable": true,
+      "createdAt": "2024-02-10T11:45:00Z"
+    },
+    {
+      "name": "Mobile",
+      "sku": "test",
+      "category": "Electronics",
+      "price": 500,
+      "stock": 2,
+      "unit": "set",
+      "description": "test",
+      "isAvailable": false,
+      "updatedAt": "2026-07-05T15:19:14.972Z",
+      "id": "3HtFIcK94H4"
+    },
+    {
+      "id": "6",
+      "name": "27-inch Monitor",
+      "sku": "EM-006",
+      "category": "Electronics",
+      "price": 249,
+      "stock": 60,
+      "unit": "pcs",
+      "description": "27-inch QHD IPS monitor with HDMI and DisplayPort",
+      "isAvailable": true,
+      "createdAt": "2024-01-14T08:00:00Z"
+    },
+    {
+      "id": "7",
+      "name": "Mechanical Keyboard",
+      "sku": "KB-007",
+      "category": "Electronics",
+      "price": 79.99,
+      "stock": 85,
+      "unit": "pcs",
+      "description": "RGB backlit mechanical keyboard with hot-swappable switches",
+      "isAvailable": true,
+      "createdAt": "2024-01-16T09:00:00Z"
+    },
+    {
+      "id": "8",
+      "name": "Noise Cancelling Headphones",
+      "sku": "WH-008",
+      "category": "Electronics",
+      "price": 199.99,
+      "stock": 30,
+      "unit": "pcs",
+      "description": "Over-ear ANC headphones with 30-hour battery life",
+      "isAvailable": true,
+      "createdAt": "2024-01-18T10:30:00Z"
+    },
+    {
+      "id": "9",
+      "name": "Standing Desk",
+      "sku": "DS-009",
+      "category": "Furniture",
+      "price": 449,
+      "stock": 12,
+      "unit": "pcs",
+      "description": "Electric height-adjustable standing desk, 60x30 inch top",
+      "isAvailable": true,
+      "createdAt": "2024-01-21T11:00:00Z"
+    },
+    {
+      "id": "10",
+      "name": "Filing Cabinet",
+      "sku": "FC-010",
+      "category": "Furniture",
+      "price": 159.99,
+      "stock": 22,
+      "unit": "pcs",
+      "description": "3-drawer steel filing cabinet with lock",
+      "isAvailable": true,
+      "createdAt": "2024-01-24T13:20:00Z"
+    },
+    {
+      "id": "11",
+      "name": "Bookcase",
+      "sku": "BC-011",
+      "category": "Furniture",
+      "price": 189.5,
+      "stock": 0,
+      "unit": "pcs",
+      "description": "5-shelf solid wood bookcase",
+      "isAvailable": false,
+      "createdAt": "2024-01-27T14:45:00Z"
+    },
+    {
+      "id": "12",
+      "name": "Microwave Oven",
+      "sku": "MW-012",
+      "category": "Appliances",
+      "price": 129.99,
+      "stock": 40,
+      "unit": "pcs",
+      "description": "900W countertop microwave with digital display",
+      "isAvailable": true,
+      "createdAt": "2024-01-30T08:15:00Z"
+    },
+    {
+      "id": "13",
+      "name": "Blender",
+      "sku": "BL-013",
+      "category": "Appliances",
+      "price": 59.99,
+      "stock": 75,
+      "unit": "pcs",
+      "description": "High-speed countertop blender, 1.5L jar",
+      "isAvailable": true,
+      "createdAt": "2024-02-02T09:40:00Z"
+    },
+    {
+      "id": "14",
+      "name": "Mini Refrigerator",
+      "sku": "RF-014",
+      "category": "Appliances",
+      "price": 219,
+      "stock": 0,
+      "unit": "pcs",
+      "description": "3.2 cu ft compact refrigerator",
+      "isAvailable": false,
+      "createdAt": "2024-02-05T10:00:00Z"
+    },
+    {
+      "id": "15",
+      "name": "Ballpoint Pen Box",
+      "sku": "PN-015",
+      "category": "Office Supplies",
+      "price": 8.99,
+      "stock": 500,
+      "unit": "box",
+      "description": "Box of 50 blue ballpoint pens",
+      "isAvailable": true,
+      "createdAt": "2024-02-08T08:30:00Z"
+    },
+    {
+      "id": "16",
+      "name": "Sticky Notes Pack",
+      "sku": "ST-016",
+      "category": "Office Supplies",
+      "price": 6.49,
+      "stock": 320,
+      "unit": "pack",
+      "description": "Pack of 12 sticky note pads, assorted colors",
+      "isAvailable": true,
+      "createdAt": "2024-02-11T09:20:00Z"
+    },
+    {
+      "id": "17",
+      "name": "Desk Organizer",
+      "sku": "DK-017",
+      "category": "Office Supplies",
+      "price": 24.99,
+      "stock": 90,
+      "unit": "pcs",
+      "description": "Bamboo desk organizer with multiple compartments",
+      "isAvailable": true,
+      "createdAt": "2024-02-14T11:50:00Z"
+    },
+    {
+      "id": "18",
+      "name": "Wi-Fi Router",
+      "sku": "RT-018",
+      "category": "Networking",
+      "price": 89.99,
+      "stock": 55,
+      "unit": "pcs",
+      "description": "Dual-band AX3000 Wi-Fi 6 router",
+      "isAvailable": true,
+      "createdAt": "2024-02-17T13:10:00Z"
+    },
+    {
+      "id": "19",
+      "name": "8-Port Network Switch",
+      "sku": "SW-019",
+      "category": "Networking",
+      "price": 45,
+      "stock": 33,
+      "unit": "pcs",
+      "description": "Unmanaged Gigabit Ethernet switch, 8 ports",
+      "isAvailable": true,
+      "createdAt": "2024-02-20T09:05:00Z"
+    },
+    {
+      "id": "20",
+      "name": "Ethernet Cable 50ft",
+      "sku": "CB-020",
+      "category": "Networking",
+      "price": 12.99,
+      "stock": 150,
+      "unit": "pcs",
+      "description": "Cat6 shielded Ethernet cable, 50 feet",
+      "isAvailable": true,
+      "createdAt": "2024-02-23T10:25:00Z"
+    },
+    {
+      "id": "21",
+      "name": "Cookware Set",
+      "sku": "CS-021",
+      "category": "Kitchenware",
+      "price": 149,
+      "stock": 20,
+      "unit": "set",
+      "description": "10-piece non-stick cookware set",
+      "isAvailable": true,
+      "createdAt": "2024-02-26T08:40:00Z"
+    },
+    {
+      "id": "22",
+      "name": "Knife Block Set",
+      "sku": "KN-022",
+      "category": "Kitchenware",
+      "price": 79.99,
+      "stock": 0,
+      "unit": "set",
+      "description": "15-piece stainless steel knife block set",
+      "isAvailable": false,
+      "createdAt": "2024-03-01T09:15:00Z"
+    },
+    {
+      "id": "23",
+      "name": "Cordless Drill",
+      "sku": "DR-023",
+      "category": "Tools",
+      "price": 99.99,
+      "stock": 48,
+      "unit": "pcs",
+      "description": "20V cordless drill with 2 batteries and case",
+      "isAvailable": true,
+      "createdAt": "2024-03-04T11:30:00Z"
+    },
+    {
+      "id": "24",
+      "name": "Tool Box",
+      "sku": "TB-024",
+      "category": "Tools",
+      "price": 39.99,
+      "stock": 65,
+      "unit": "pcs",
+      "description": "Heavy-duty 20-inch tool box with tray",
+      "isAvailable": true,
+      "createdAt": "2024-03-07T13:00:00Z"
+    },
+    {
+      "id": "25",
+      "name": "LED Desk Lamp",
+      "sku": "LP-025",
+      "category": "Lighting",
+      "price": 34.99,
+      "stock": 110,
+      "unit": "pcs",
+      "description": "Adjustable LED desk lamp with USB charging port",
+      "isAvailable": true,
+      "createdAt": "2024-03-10T08:20:00Z"
+    },
+    {
+      "id": "26",
+      "name": "Floor Lamp",
+      "sku": "FL-026",
+      "category": "Lighting",
+      "price": 64.99,
+      "stock": 0,
+      "unit": "pcs",
+      "description": "Modern arc floor lamp with fabric shade",
+      "isAvailable": false,
+      "createdAt": "2024-03-13T09:45:00Z"
+    },
+    {
+      "id": "27",
+      "name": "Legal Pad Pack",
+      "sku": "NB-027",
+      "category": "Stationery",
+      "price": 11.99,
+      "stock": 240,
+      "unit": "pack",
+      "description": "Pack of 6 yellow legal pads",
+      "isAvailable": true,
+      "createdAt": "2024-03-16T10:10:00Z"
+    },
+    {
+      "id": "28",
+      "name": "Marker Set",
+      "sku": "MK-028",
+      "category": "Stationery",
+      "price": 9.99,
+      "stock": 300,
+      "unit": "set",
+      "description": "Set of 24 assorted whiteboard markers",
+      "isAvailable": true,
+      "createdAt": "2024-03-19T11:35:00Z"
+    },
+    {
+      "id": "29",
+      "name": "Camping Tent",
+      "sku": "TN-029",
+      "category": "Outdoor",
+      "price": 179.99,
+      "stock": 15,
+      "unit": "pcs",
+      "description": "4-person waterproof camping tent",
+      "isAvailable": true,
+      "createdAt": "2024-03-22T13:50:00Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "orderNumber": "ORD-9001",
+      "customerId": "1",
+      "items": [
+        {
+          "productId": "1",
+          "productName": "Laptop Pro",
+          "sku": "LP-001",
+          "quantity": 1,
+          "unitPrice": 1299.99,
+          "lineTotal": 1299.99
+        }
+      ],
+      "subtotal": 1299.99,
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "taxPercent": 8,
+      "taxAmount": 104,
+      "totalAmount": 1403.99,
+      "status": "pending",
+      "orderDate": "2024-01-02T06:30:00.000Z",
+      "createdAt": "2024-01-02T06:30:00.000Z"
+    },
+    {
+      "id": "2",
+      "orderNumber": "ORD-9002",
+      "customerId": "6",
+      "items": [
+        {
+          "productId": "6",
+          "productName": "27-inch Monitor",
+          "sku": "EM-006",
+          "quantity": 2,
+          "unitPrice": 249,
+          "lineTotal": 498
+        },
+        {
+          "productId": "17",
+          "productName": "Desk Organizer",
+          "sku": "DK-017",
+          "quantity": 5,
+          "unitPrice": 24.99,
+          "lineTotal": 124.95
+        }
+      ],
+      "subtotal": 622.95,
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "taxPercent": 8,
+      "taxAmount": 49.84,
+      "totalAmount": 672.79,
+      "status": "processing",
+      "orderDate": "2024-02-05T07:30:00.000Z",
+      "createdAt": "2024-02-05T07:30:00.000Z"
+    },
+    {
+      "id": "3",
+      "orderNumber": "ORD-9003",
+      "customerId": "13",
+      "items": [
+        {
+          "productId": "11",
+          "productName": "Bookcase",
+          "sku": "BC-011",
+          "quantity": 3,
+          "unitPrice": 189.5,
+          "lineTotal": 568.5
+        },
+        {
+          "productId": "22",
+          "productName": "Knife Block Set",
+          "sku": "KN-022",
+          "quantity": 1,
+          "unitPrice": 79.99,
+          "lineTotal": 79.99
+        },
+        {
+          "productId": "4",
+          "productName": "Coffee Maker",
+          "sku": "CM-004",
+          "quantity": 4,
+          "unitPrice": 89.99,
+          "lineTotal": 359.96
+        }
+      ],
+      "subtotal": 1008.45,
+      "discountPercent": 5,
+      "discountAmount": 50.42,
+      "taxPercent": 8,
+      "taxAmount": 76.64,
+      "totalAmount": 1034.67,
+      "status": "shipped",
+      "orderDate": "2024-03-08T08:30:00.000Z",
+      "createdAt": "2024-03-08T08:30:00.000Z"
+    },
+    {
+      "id": "4",
+      "orderNumber": "ORD-9004",
+      "customerId": "20",
+      "items": [
+        {
+          "productId": "16",
+          "productName": "Sticky Notes Pack",
+          "sku": "ST-016",
+          "quantity": 4,
+          "unitPrice": 6.49,
+          "lineTotal": 25.96
+        },
+        {
+          "productId": "27",
+          "productName": "Legal Pad Pack",
+          "sku": "NB-027",
+          "quantity": 2,
+          "unitPrice": 11.99,
+          "lineTotal": 23.98
+        },
+        {
+          "productId": "9",
+          "productName": "Standing Desk",
+          "sku": "DS-009",
+          "quantity": 5,
+          "unitPrice": 449,
+          "lineTotal": 2245
+        },
+        {
+          "productId": "20",
+          "productName": "Ethernet Cable 50ft",
+          "sku": "CB-020",
+          "quantity": 3,
+          "unitPrice": 12.99,
+          "lineTotal": 38.97
+        }
+      ],
+      "subtotal": 2333.91,
+      "discountPercent": 10,
+      "discountAmount": 233.39,
+      "taxPercent": 8,
+      "taxAmount": 168.04,
+      "totalAmount": 2268.56,
+      "status": "delivered",
+      "orderDate": "2024-04-11T09:30:00.000Z",
+      "createdAt": "2024-04-11T09:30:00.000Z"
+    },
+    {
+      "id": "5",
+      "orderNumber": "ORD-9005",
+      "customerId": "27",
+      "items": [
+        {
+          "productId": "21",
+          "productName": "Cookware Set",
+          "sku": "CS-021",
+          "quantity": 5,
+          "unitPrice": 149,
+          "lineTotal": 745
+        }
+      ],
+      "subtotal": 745,
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "taxPercent": 8,
+      "taxAmount": 59.6,
+      "totalAmount": 804.6,
+      "status": "delivered",
+      "orderDate": "2024-05-14T10:30:00.000Z",
+      "createdAt": "2024-05-14T10:30:00.000Z"
+    },
+    {
+      "id": "6",
+      "orderNumber": "ORD-9006",
+      "customerId": "P9HBga_AZ2k",
+      "items": [
+        {
+          "productId": "26",
+          "productName": "Floor Lamp",
+          "sku": "FL-026",
+          "quantity": 1,
+          "unitPrice": 64.99,
+          "lineTotal": 64.99
+        },
+        {
+          "productId": "8",
+          "productName": "Noise Cancelling Headphones",
+          "sku": "WH-008",
+          "quantity": 4,
+          "unitPrice": 199.99,
+          "lineTotal": 799.96
+        },
+        {
+          "productId": "9",
+          "productName": "Standing Desk",
+          "sku": "DS-009",
+          "quantity": 1,
+          "unitPrice": 449,
+          "lineTotal": 449
+        }
+      ],
+      "subtotal": 1313.95,
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "taxPercent": 8,
+      "taxAmount": 105.12,
+      "totalAmount": 1419.07,
+      "status": "cancelled",
+      "orderDate": "2024-06-17",
+      "createdAt": "2024-06-17T11:30:00.000Z",
+      "updatedAt": "2026-07-07T16:34:02.809Z"
+    },
+    {
+      "id": "7",
+      "orderNumber": "ORD-9007",
+      "customerId": "11",
+      "items": [
+        {
+          "productId": "2",
+          "productName": "Wireless Mouse",
+          "sku": "WM-002",
+          "quantity": 2,
+          "unitPrice": 29.99,
+          "lineTotal": 59.98
+        },
+        {
+          "productId": "13",
+          "productName": "Blender",
+          "sku": "BL-013",
+          "quantity": 5,
+          "unitPrice": 59.99,
+          "lineTotal": 299.95
+        },
+        {
+          "productId": "24",
+          "productName": "Tool Box",
+          "sku": "TB-024",
+          "quantity": 3,
+          "unitPrice": 39.99,
+          "lineTotal": 119.97
+        }
+      ],
+      "subtotal": 479.9,
+      "discountPercent": 5,
+      "discountAmount": 24,
+      "taxPercent": 8,
+      "taxAmount": 36.47,
+      "totalAmount": 492.38,
+      "status": "pending",
+      "orderDate": "2024-01-20T06:30:00.000Z",
+      "createdAt": "2024-01-20T06:30:00.000Z"
+    },
+    {
+      "id": "8",
+      "orderNumber": "ORD-9008",
+      "customerId": "18",
+      "items": [
+        {
+          "productId": "7",
+          "productName": "Mechanical Keyboard",
+          "sku": "KB-007",
+          "quantity": 3,
+          "unitPrice": 79.99,
+          "lineTotal": 239.97
+        },
+        {
+          "productId": "18",
+          "productName": "Wi-Fi Router",
+          "sku": "RT-018",
+          "quantity": 1,
+          "unitPrice": 89.99,
+          "lineTotal": 89.99
+        },
+        {
+          "productId": "29",
+          "productName": "Camping Tent",
+          "sku": "TN-029",
+          "quantity": 4,
+          "unitPrice": 179.99,
+          "lineTotal": 719.96
+        },
+        {
+          "productId": "11",
+          "productName": "Bookcase",
+          "sku": "BC-011",
+          "quantity": 2,
+          "unitPrice": 189.5,
+          "lineTotal": 379
+        }
+      ],
+      "subtotal": 1428.92,
+      "discountPercent": 10,
+      "discountAmount": 142.89,
+      "taxPercent": 8,
+      "taxAmount": 102.88,
+      "totalAmount": 1388.91,
+      "status": "processing",
+      "orderDate": "2024-02-23T07:30:00.000Z",
+      "createdAt": "2024-02-23T07:30:00.000Z"
+    },
+    {
+      "id": "9",
+      "orderNumber": "ORD-9009",
+      "customerId": "25",
+      "items": [
+        {
+          "productId": "12",
+          "productName": "Microwave Oven",
+          "sku": "MW-012",
+          "quantity": 4,
+          "unitPrice": 129.99,
+          "lineTotal": 519.96
+        }
+      ],
+      "subtotal": 519.96,
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "taxPercent": 8,
+      "taxAmount": 41.6,
+      "totalAmount": 561.56,
+      "status": "shipped",
+      "orderDate": "2024-03-26T08:30:00.000Z",
+      "createdAt": "2024-03-26T08:30:00.000Z"
+    },
+    {
+      "id": "10",
+      "orderNumber": "ORD-9010",
+      "customerId": "4",
+      "items": [
+        {
+          "productId": "17",
+          "productName": "Desk Organizer",
+          "sku": "DK-017",
+          "quantity": 5,
+          "unitPrice": 24.99,
+          "lineTotal": 124.95
+        },
+        {
+          "productId": "28",
+          "productName": "Marker Set",
+          "sku": "MK-028",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "lineTotal": 29.97
+        }
+      ],
+      "subtotal": 154.92,
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "taxPercent": 8,
+      "taxAmount": 12.39,
+      "totalAmount": 167.31,
+      "status": "delivered",
+      "orderDate": "2024-04-03T09:30:00.000Z",
+      "createdAt": "2024-04-03T09:30:00.000Z"
+    },
+    {
+      "id": "11",
+      "orderNumber": "ORD-9011",
+      "customerId": "9",
+      "items": [
+        {
+          "productId": "22",
+          "productName": "Knife Block Set",
+          "sku": "KN-022",
+          "quantity": 1,
+          "unitPrice": 79.99,
+          "lineTotal": 79.99
+        },
+        {
+          "productId": "4",
+          "productName": "Coffee Maker",
+          "sku": "CM-004",
+          "quantity": 4,
+          "unitPrice": 89.99,
+          "lineTotal": 359.96
+        },
+        {
+          "productId": "15",
+          "productName": "Ballpoint Pen Box",
+          "sku": "PN-015",
+          "quantity": 2,
+          "unitPrice": 8.99,
+          "lineTotal": 17.98
+        }
+      ],
+      "subtotal": 457.93,
+      "discountPercent": 5,
+      "discountAmount": 22.9,
+      "taxPercent": 8,
+      "taxAmount": 34.8,
+      "totalAmount": 469.84,
+      "status": "delivered",
+      "orderDate": "2024-05-06T10:30:00.000Z",
+      "createdAt": "2024-05-06T10:30:00.000Z"
+    },
+    {
+      "id": "12",
+      "orderNumber": "ORD-9012",
+      "customerId": "16",
+      "items": [
+        {
+          "productId": "27",
+          "productName": "Legal Pad Pack",
+          "sku": "NB-027",
+          "quantity": 2,
+          "unitPrice": 11.99,
+          "lineTotal": 23.98
+        },
+        {
+          "productId": "9",
+          "productName": "Standing Desk",
+          "sku": "DS-009",
+          "quantity": 5,
+          "unitPrice": 449,
+          "lineTotal": 2245
+        },
+        {
+          "productId": "20",
+          "productName": "Ethernet Cable 50ft",
+          "sku": "CB-020",
+          "quantity": 3,
+          "unitPrice": 12.99,
+          "lineTotal": 38.97
+        },
+        {
+          "productId": "2",
+          "productName": "Wireless Mouse",
+          "sku": "WM-002",
+          "quantity": 1,
+          "unitPrice": 29.99,
+          "lineTotal": 29.99
+        }
+      ],
+      "subtotal": 2337.94,
+      "discountPercent": 10,
+      "discountAmount": 233.79,
+      "taxPercent": 8,
+      "taxAmount": 168.33,
+      "totalAmount": 2272.48,
+      "status": "cancelled",
+      "orderDate": "2024-06-09T11:30:00.000Z",
+      "createdAt": "2024-06-09T11:30:00.000Z"
+    },
+    {
+      "id": "13",
+      "orderNumber": "ORD-9013",
+      "customerId": "23",
+      "items": [
+        {
+          "productId": "3",
+          "productName": "Office Chair",
+          "sku": "OC-003",
+          "quantity": 3,
+          "unitPrice": 249.99,
+          "lineTotal": 749.97
+        }
+      ],
+      "subtotal": 749.97,
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "taxPercent": 8,
+      "taxAmount": 60,
+      "totalAmount": 809.97,
+      "status": "pending",
+      "orderDate": "2024-01-12T06:30:00.000Z",
+      "createdAt": "2024-01-12T06:30:00.000Z"
+    },
+    {
+      "id": "14",
+      "orderNumber": "ORD-9014",
+      "customerId": "2",
+      "items": [
+        {
+          "productId": "8",
+          "productName": "Noise Cancelling Headphones",
+          "sku": "WH-008",
+          "quantity": 4,
+          "unitPrice": 199.99,
+          "lineTotal": 799.96
+        },
+        {
+          "productId": "19",
+          "productName": "8-Port Network Switch",
+          "sku": "SW-019",
+          "quantity": 2,
+          "unitPrice": 45,
+          "lineTotal": 90
+        }
+      ],
+      "subtotal": 889.96,
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "taxPercent": 8,
+      "taxAmount": 71.2,
+      "totalAmount": 961.16,
+      "status": "processing",
+      "orderDate": "2024-02-15T07:30:00.000Z",
+      "createdAt": "2024-02-15T07:30:00.000Z"
+    },
+    {
+      "id": "15",
+      "orderNumber": "ORD-9015",
+      "customerId": "7",
+      "items": [
+        {
+          "productId": "13",
+          "productName": "Blender",
+          "sku": "BL-013",
+          "quantity": 5,
+          "unitPrice": 59.99,
+          "lineTotal": 299.95
+        },
+        {
+          "productId": "24",
+          "productName": "Tool Box",
+          "sku": "TB-024",
+          "quantity": 3,
+          "unitPrice": 39.99,
+          "lineTotal": 119.97
+        },
+        {
+          "productId": "6",
+          "productName": "27-inch Monitor",
+          "sku": "EM-006",
+          "quantity": 1,
+          "unitPrice": 249,
+          "lineTotal": 249
+        }
+      ],
+      "subtotal": 668.92,
+      "discountPercent": 5,
+      "discountAmount": 33.45,
+      "taxPercent": 8,
+      "taxAmount": 50.84,
+      "totalAmount": 686.31,
+      "status": "shipped",
+      "orderDate": "2024-03-18T08:30:00.000Z",
+      "createdAt": "2024-03-18T08:30:00.000Z"
+    },
+    {
+      "id": "16",
+      "orderNumber": "ORD-9016",
+      "customerId": "14",
+      "items": [
+        {
+          "productId": "18",
+          "productName": "Wi-Fi Router",
+          "sku": "RT-018",
+          "quantity": 1,
+          "unitPrice": 89.99,
+          "lineTotal": 89.99
+        },
+        {
+          "productId": "29",
+          "productName": "Camping Tent",
+          "sku": "TN-029",
+          "quantity": 4,
+          "unitPrice": 179.99,
+          "lineTotal": 719.96
+        },
+        {
+          "productId": "11",
+          "productName": "Bookcase",
+          "sku": "BC-011",
+          "quantity": 2,
+          "unitPrice": 189.5,
+          "lineTotal": 379
+        },
+        {
+          "productId": "22",
+          "productName": "Knife Block Set",
+          "sku": "KN-022",
+          "quantity": 5,
+          "unitPrice": 79.99,
+          "lineTotal": 399.95
+        }
+      ],
+      "subtotal": 1588.9,
+      "discountPercent": 10,
+      "discountAmount": 158.89,
+      "taxPercent": 8,
+      "taxAmount": 114.4,
+      "totalAmount": 1544.41,
+      "status": "delivered",
+      "orderDate": "2024-04-21T09:30:00.000Z",
+      "createdAt": "2024-04-21T09:30:00.000Z"
+    },
+    {
+      "id": "17",
+      "orderNumber": "ORD-9017",
+      "customerId": "21",
+      "items": [
+        {
+          "productId": "23",
+          "productName": "Cordless Drill",
+          "sku": "DR-023",
+          "quantity": 2,
+          "unitPrice": 99.99,
+          "lineTotal": 199.98
+        }
+      ],
+      "subtotal": 199.98,
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "taxPercent": 8,
+      "taxAmount": 16,
+      "totalAmount": 215.98,
+      "status": "delivered",
+      "orderDate": "2024-05-24T10:30:00.000Z",
+      "createdAt": "2024-05-24T10:30:00.000Z"
+    },
+    {
+      "id": "18",
+      "orderNumber": "ORD-9018",
+      "customerId": "28",
+      "items": [
+        {
+          "productId": "28",
+          "productName": "Marker Set",
+          "sku": "MK-028",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "lineTotal": 29.97
+        },
+        {
+          "productId": "10",
+          "productName": "Filing Cabinet",
+          "sku": "FC-010",
+          "quantity": 1,
+          "unitPrice": 159.99,
+          "lineTotal": 159.99
+        }
+      ],
+      "subtotal": 189.96,
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "taxPercent": 8,
+      "taxAmount": 15.2,
+      "totalAmount": 205.16,
+      "status": "cancelled",
+      "orderDate": "2024-06-27T11:30:00.000Z",
+      "createdAt": "2024-06-27T11:30:00.000Z"
+    },
+    {
+      "id": "19",
+      "orderNumber": "ORD-9019",
+      "customerId": "V3rb8Atm8i4",
+      "items": [
+        {
+          "productId": "4",
+          "productName": "Coffee Maker",
+          "sku": "CM-004",
+          "quantity": 4,
+          "unitPrice": 89.99,
+          "lineTotal": 359.96
+        },
+        {
+          "productId": "15",
+          "productName": "Ballpoint Pen Box",
+          "sku": "PN-015",
+          "quantity": 2,
+          "unitPrice": 8.99,
+          "lineTotal": 17.98
+        },
+        {
+          "productId": "26",
+          "productName": "Floor Lamp",
+          "sku": "FL-026",
+          "quantity": 5,
+          "unitPrice": 64.99,
+          "lineTotal": 324.95
+        }
+      ],
+      "subtotal": 702.89,
+      "discountPercent": 5,
+      "discountAmount": 35.14,
+      "taxPercent": 8,
+      "taxAmount": 53.42,
+      "totalAmount": 721.17,
+      "status": "pending",
+      "orderDate": "2024-01-04T06:30:00.000Z",
+      "createdAt": "2024-01-04T06:30:00.000Z"
+    },
+    {
+      "id": "20",
+      "orderNumber": "ORD-9020",
+      "customerId": "12",
+      "items": [
+        {
+          "productId": "9",
+          "productName": "Standing Desk",
+          "sku": "DS-009",
+          "quantity": 5,
+          "unitPrice": 449,
+          "lineTotal": 2245
+        },
+        {
+          "productId": "20",
+          "productName": "Ethernet Cable 50ft",
+          "sku": "CB-020",
+          "quantity": 3,
+          "unitPrice": 12.99,
+          "lineTotal": 38.97
+        },
+        {
+          "productId": "2",
+          "productName": "Wireless Mouse",
+          "sku": "WM-002",
+          "quantity": 1,
+          "unitPrice": 29.99,
+          "lineTotal": 29.99
+        },
+        {
+          "productId": "13",
+          "productName": "Blender",
+          "sku": "BL-013",
+          "quantity": 4,
+          "unitPrice": 59.99,
+          "lineTotal": 239.96
+        }
+      ],
+      "subtotal": 2553.92,
+      "discountPercent": 10,
+      "discountAmount": 255.39,
+      "taxPercent": 8,
+      "taxAmount": 183.88,
+      "totalAmount": 2482.41,
+      "status": "processing",
+      "orderDate": "2024-02-07T07:30:00.000Z",
+      "createdAt": "2024-02-07T07:30:00.000Z"
+    },
+    {
+      "id": "21",
+      "orderNumber": "ORD-9021",
+      "customerId": "19",
+      "items": [
+        {
+          "productId": "14",
+          "productName": "Mini Refrigerator",
+          "sku": "RF-014",
+          "quantity": 1,
+          "unitPrice": 219,
+          "lineTotal": 219
+        }
+      ],
+      "subtotal": 219,
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "taxPercent": 8,
+      "taxAmount": 17.52,
+      "totalAmount": 236.52,
+      "status": "shipped",
+      "orderDate": "2024-03-10T08:30:00.000Z",
+      "createdAt": "2024-03-10T08:30:00.000Z"
+    },
+    {
+      "id": "22",
+      "orderNumber": "ORD-9022",
+      "customerId": "26",
+      "items": [
+        {
+          "productId": "19",
+          "productName": "8-Port Network Switch",
+          "sku": "SW-019",
+          "quantity": 2,
+          "unitPrice": 45,
+          "lineTotal": 90
+        },
+        {
+          "productId": "1",
+          "productName": "Laptop Pro",
+          "sku": "LP-001",
+          "quantity": 5,
+          "unitPrice": 1299.99,
+          "lineTotal": 6499.95
+        }
+      ],
+      "subtotal": 6589.95,
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "taxPercent": 8,
+      "taxAmount": 527.2,
+      "totalAmount": 7117.15,
+      "status": "delivered",
+      "orderDate": "2024-04-13T09:30:00.000Z",
+      "createdAt": "2024-04-13T09:30:00.000Z"
+    },
+    {
+      "id": "23",
+      "orderNumber": "ORD-9023",
+      "customerId": "5",
+      "items": [
+        {
+          "productId": "24",
+          "productName": "Tool Box",
+          "sku": "TB-024",
+          "quantity": 3,
+          "unitPrice": 39.99,
+          "lineTotal": 119.97
+        },
+        {
+          "productId": "6",
+          "productName": "27-inch Monitor",
+          "sku": "EM-006",
+          "quantity": 1,
+          "unitPrice": 249,
+          "lineTotal": 249
+        },
+        {
+          "productId": "17",
+          "productName": "Desk Organizer",
+          "sku": "DK-017",
+          "quantity": 4,
+          "unitPrice": 24.99,
+          "lineTotal": 99.96
+        }
+      ],
+      "subtotal": 468.93,
+      "discountPercent": 5,
+      "discountAmount": 23.45,
+      "taxPercent": 8,
+      "taxAmount": 35.64,
+      "totalAmount": 481.12,
+      "status": "delivered",
+      "orderDate": "2024-05-16T10:30:00.000Z",
+      "createdAt": "2024-05-16T10:30:00.000Z"
+    },
+    {
+      "id": "24",
+      "orderNumber": "ORD-9024",
+      "customerId": "10",
+      "items": [
+        {
+          "productId": "29",
+          "productName": "Camping Tent",
+          "sku": "TN-029",
+          "quantity": 4,
+          "unitPrice": 179.99,
+          "lineTotal": 719.96
+        },
+        {
+          "productId": "11",
+          "productName": "Bookcase",
+          "sku": "BC-011",
+          "quantity": 2,
+          "unitPrice": 189.5,
+          "lineTotal": 379
+        },
+        {
+          "productId": "22",
+          "productName": "Knife Block Set",
+          "sku": "KN-022",
+          "quantity": 5,
+          "unitPrice": 79.99,
+          "lineTotal": 399.95
+        },
+        {
+          "productId": "4",
+          "productName": "Coffee Maker",
+          "sku": "CM-004",
+          "quantity": 3,
+          "unitPrice": 89.99,
+          "lineTotal": 269.97
+        }
+      ],
+      "subtotal": 1768.88,
+      "discountPercent": 10,
+      "discountAmount": 176.89,
+      "taxPercent": 8,
+      "taxAmount": 127.36,
+      "totalAmount": 1719.35,
+      "status": "cancelled",
+      "orderDate": "2024-06-19T11:30:00.000Z",
+      "createdAt": "2024-06-19T11:30:00.000Z"
+    },
+    {
+      "id": "25",
+      "orderNumber": "ORD-9025",
+      "customerId": "17",
+      "items": [
+        {
+          "productId": "5",
+          "productName": "Notebook Set",
+          "sku": "NS-005",
+          "quantity": 5,
+          "unitPrice": 15.99,
+          "lineTotal": 79.95
+        }
+      ],
+      "subtotal": 79.95,
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "taxPercent": 8,
+      "taxAmount": 6.4,
+      "totalAmount": 86.35,
+      "status": "pending",
+      "orderDate": "2024-01-22T06:30:00.000Z",
+      "createdAt": "2024-01-22T06:30:00.000Z"
+    },
+    {
+      "id": "26",
+      "orderNumber": "ORD-9026",
+      "customerId": "24",
+      "items": [
+        {
+          "productId": "10",
+          "productName": "Filing Cabinet",
+          "sku": "FC-010",
+          "quantity": 1,
+          "unitPrice": 159.99,
+          "lineTotal": 159.99
+        },
+        {
+          "productId": "21",
+          "productName": "Cookware Set",
+          "sku": "CS-021",
+          "quantity": 4,
+          "unitPrice": 149,
+          "lineTotal": 596
+        }
+      ],
+      "subtotal": 755.99,
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "taxPercent": 8,
+      "taxAmount": 60.48,
+      "totalAmount": 816.47,
+      "status": "processing",
+      "orderDate": "2024-02-25T07:30:00.000Z",
+      "createdAt": "2024-02-25T07:30:00.000Z"
+    },
+    {
+      "id": "27",
+      "orderNumber": "ORD-9027",
+      "customerId": "3",
+      "items": [
+        {
+          "productId": "15",
+          "productName": "Ballpoint Pen Box",
+          "sku": "PN-015",
+          "quantity": 2,
+          "unitPrice": 8.99,
+          "lineTotal": 17.98
+        },
+        {
+          "productId": "26",
+          "productName": "Floor Lamp",
+          "sku": "FL-026",
+          "quantity": 5,
+          "unitPrice": 64.99,
+          "lineTotal": 324.95
+        },
+        {
+          "productId": "8",
+          "productName": "Noise Cancelling Headphones",
+          "sku": "WH-008",
+          "quantity": 3,
+          "unitPrice": 199.99,
+          "lineTotal": 599.97
+        }
+      ],
+      "subtotal": 942.9,
+      "discountPercent": 5,
+      "discountAmount": 47.15,
+      "taxPercent": 8,
+      "taxAmount": 71.66,
+      "totalAmount": 967.42,
+      "status": "shipped",
+      "orderDate": "2024-03-02T08:30:00.000Z",
+      "createdAt": "2024-03-02T08:30:00.000Z"
+    },
+    {
+      "id": "28",
+      "orderNumber": "ORD-9028",
+      "customerId": "8",
+      "items": [
+        {
+          "productId": "20",
+          "productName": "Ethernet Cable 50ft",
+          "sku": "CB-020",
+          "quantity": 3,
+          "unitPrice": 12.99,
+          "lineTotal": 38.97
+        },
+        {
+          "productId": "2",
+          "productName": "Wireless Mouse",
+          "sku": "WM-002",
+          "quantity": 1,
+          "unitPrice": 29.99,
+          "lineTotal": 29.99
+        },
+        {
+          "productId": "13",
+          "productName": "Blender",
+          "sku": "BL-013",
+          "quantity": 4,
+          "unitPrice": 59.99,
+          "lineTotal": 239.96
+        },
+        {
+          "productId": "24",
+          "productName": "Tool Box",
+          "sku": "TB-024",
+          "quantity": 2,
+          "unitPrice": 39.99,
+          "lineTotal": 79.98
+        }
+      ],
+      "subtotal": 388.9,
+      "discountPercent": 10,
+      "discountAmount": 38.89,
+      "taxPercent": 8,
+      "taxAmount": 28,
+      "totalAmount": 378.01,
+      "status": "delivered",
+      "orderDate": "2024-04-05T09:30:00.000Z",
+      "createdAt": "2024-04-05T09:30:00.000Z"
+    },
+    {
+      "id": "29",
+      "orderNumber": "ORD-9029",
+      "customerId": "15",
+      "items": [
+        {
+          "productId": "25",
+          "productName": "LED Desk Lamp",
+          "sku": "LP-025",
+          "quantity": 4,
+          "unitPrice": 34.99,
+          "lineTotal": 139.96
+        }
+      ],
+      "subtotal": 139.96,
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "taxPercent": 8,
+      "taxAmount": 11.2,
+      "totalAmount": 151.16,
+      "status": "delivered",
+      "orderDate": "2024-05-08T10:30:00.000Z",
+      "createdAt": "2024-05-08T10:30:00.000Z"
+    },
+    {
+      "id": "30",
+      "orderNumber": "ORD-9030",
+      "customerId": "22",
+      "items": [
+        {
+          "productId": "1",
+          "productName": "Laptop Pro",
+          "sku": "LP-001",
+          "quantity": 5,
+          "unitPrice": 1299.99,
+          "lineTotal": 6499.95
+        },
+        {
+          "productId": "12",
+          "productName": "Microwave Oven",
+          "sku": "MW-012",
+          "quantity": 3,
+          "unitPrice": 129.99,
+          "lineTotal": 389.97
+        }
+      ],
+      "subtotal": 6889.92,
+      "discountPercent": 0,
+      "discountAmount": 0,
+      "taxPercent": 8,
+      "taxAmount": 551.19,
+      "totalAmount": 7441.11,
+      "status": "cancelled",
+      "orderDate": "2024-06-11T11:30:00.000Z",
+      "createdAt": "2024-06-11T11:30:00.000Z"
+    },
+    {
+      "orderNumber": "ORD-1783442140518",
+      "customerId": "V3rb8Atm8i4",
+      "items": [
+        {
+          "productId": "1",
+          "productName": "Laptop Pro",
+          "sku": "LP-001",
+          "quantity": 1,
+          "unitPrice": 520,
+          "lineTotal": 520
+        }
+      ],
+      "discountPercent": 0,
+      "taxPercent": 8,
+      "orderDate": "2026-07-07",
+      "status": "pending",
+      "subtotal": 520,
+      "discountAmount": 0,
+      "taxAmount": 41.6,
+      "totalAmount": 561.6,
+      "createdAt": "2026-07-07T16:35:40.518Z",
+      "id": "NcOYIiK_NVw"
+    }
+  ],
+  "auth": {
+    "users": [
+      {
+        "id": 1,
+        "username": "admin",
+        "password": "admin123",
+        "email": "admin@erp.com",
+        "firstName": "Admin",
+        "lastName": "User",
+        "fullName": "Admin User",
+        "roles": [
+          "admin"
+        ],
+        "permissions": [
+          "view_dashboard",
+          "view_customers",
+          "create_customers",
+          "edit_customers",
+          "delete_customers",
+          "view_products",
+          "create_products",
+          "edit_products",
+          "delete_products",
+          "view_orders",
+          "create_orders",
+          "edit_orders",
+          "delete_orders"
+        ]
+      }
+    ]
+  },
+  "suppliers": [
+    {
+      "id": "1",
+      "name": "Pacific Components Ltd",
+      "contactName": "Robert Turner",
+      "email": "robert.turner@pacificcomponentsltd.com",
+      "phone": "+1 501 555 1007",
+      "address": "Newark, NJ",
+      "isActive": true,
+      "createdAt": "2024-01-02T20:30:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "Meridian Textiles Co",
+      "contactName": "Linda Phillips",
+      "email": "linda.phillips@meridiantextilesco.com",
+      "phone": "+1 502 555 1014",
+      "address": "Memphis, TN",
+      "isActive": true,
+      "createdAt": "2024-01-05T20:30:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "Ironclad Metals Inc",
+      "contactName": "William Campbell",
+      "email": "william.campbell@ironcladmetalsinc.com",
+      "phone": "+1 503 555 1021",
+      "address": "Columbus, OH",
+      "isActive": true,
+      "createdAt": "2024-01-08T20:30:00.000Z"
+    },
+    {
+      "id": "4",
+      "name": "BlueWave Electronics",
+      "contactName": "Barbara Parker",
+      "email": "barbara.parker@bluewaveelectronics.com",
+      "phone": "+1 504 555 1028",
+      "address": "Charlotte, NC",
+      "isActive": true,
+      "createdAt": "2024-01-11T20:30:00.000Z"
+    },
+    {
+      "id": "5",
+      "name": "Summit Packaging Group",
+      "contactName": "Richard Evans",
+      "email": "richard.evans@summitpackaginggroup.com",
+      "phone": "+1 505 555 1035",
+      "address": "Kansas City, MO",
+      "isActive": true,
+      "createdAt": "2024-01-14T20:30:00.000Z"
+    },
+    {
+      "id": "6",
+      "name": "Cedar Ridge Furniture",
+      "contactName": "Susan Edwards",
+      "email": "susan.edwards@cedarridgefurniture.com",
+      "phone": "+1 506 555 1042",
+      "address": "Tampa, FL",
+      "isActive": false,
+      "createdAt": "2024-01-17T20:30:00.000Z"
+    },
+    {
+      "id": "7",
+      "name": "Novaline Plastics",
+      "contactName": "Joseph Collins",
+      "email": "joseph.collins@novalineplastics.com",
+      "phone": "+1 507 555 1049",
+      "address": "Sacramento, CA",
+      "isActive": true,
+      "createdAt": "2024-01-20T20:30:00.000Z"
+    },
+    {
+      "id": "8",
+      "name": "Golden Gate Wholesale",
+      "contactName": "Jessica Stewart",
+      "email": "jessica.stewart@goldengatewholesale.com",
+      "phone": "+1 508 555 1056",
+      "address": "Louisville, KY",
+      "isActive": true,
+      "createdAt": "2024-01-23T20:30:00.000Z"
+    },
+    {
+      "id": "9",
+      "name": "Redwood Office Supply",
+      "contactName": "Thomas Sanchez",
+      "email": "thomas.sanchez@redwoodofficesupply.com",
+      "phone": "+1 509 555 1063",
+      "address": "Milwaukee, WI",
+      "isActive": true,
+      "createdAt": "2024-01-26T20:30:00.000Z"
+    },
+    {
+      "id": "10",
+      "name": "Atlas Industrial Parts",
+      "contactName": "Karen Morris",
+      "email": "karen.morris@atlasindustrialparts.com",
+      "phone": "+1 510 555 1070",
+      "address": "Albuquerque, NM",
+      "isActive": true,
+      "createdAt": "2024-01-29T20:30:00.000Z"
+    },
+    {
+      "id": "11",
+      "name": "Silverline Chemicals",
+      "contactName": "Charles Rogers",
+      "email": "charles.rogers@silverlinechemicals.com",
+      "phone": "+1 511 555 1077",
+      "address": "Tucson, AZ",
+      "isActive": true,
+      "createdAt": "2024-02-01T20:30:00.000Z"
+    },
+    {
+      "id": "12",
+      "name": "Harbor Point Logistics",
+      "contactName": "Nancy Reed",
+      "email": "nancy.reed@harborpointlogistics.com",
+      "phone": "+1 512 555 1084",
+      "address": "Fresno, CA",
+      "isActive": false,
+      "createdAt": "2024-02-04T20:30:00.000Z"
+    },
+    {
+      "id": "13",
+      "name": "Crestwood Paper Mills",
+      "contactName": "Christopher Cook",
+      "email": "christopher.cook@crestwoodpapermills.com",
+      "phone": "+1 513 555 1091",
+      "address": "Omaha, NE",
+      "isActive": true,
+      "createdAt": "2024-02-07T20:30:00.000Z"
+    },
+    {
+      "id": "14",
+      "name": "Falcon Tools Manufacturing",
+      "contactName": "Betty Morgan",
+      "email": "betty.morgan@falcontoolsmanufacturing.com",
+      "phone": "+1 514 555 1098",
+      "address": "Raleigh, NC",
+      "isActive": true,
+      "createdAt": "2024-02-10T20:30:00.000Z"
+    },
+    {
+      "id": "15",
+      "name": "Evergreen Foods Distribution",
+      "contactName": "Daniel Bell",
+      "email": "daniel.bell@evergreenfoodsdistribution.com",
+      "phone": "+1 515 555 1105",
+      "address": "Oakland, CA",
+      "isActive": true,
+      "createdAt": "2024-02-13T20:30:00.000Z"
+    },
+    {
+      "id": "16",
+      "name": "Titan Hardware Co",
+      "contactName": "Sandra Murphy",
+      "email": "sandra.murphy@titanhardwareco.com",
+      "phone": "+1 516 555 1112",
+      "address": "Minneapolis, MN",
+      "isActive": true,
+      "createdAt": "2024-02-16T20:30:00.000Z"
+    },
+    {
+      "id": "17",
+      "name": "Bluepeak Networking",
+      "contactName": "Paul Bailey",
+      "email": "paul.bailey@bluepeaknetworking.com",
+      "phone": "+1 517 555 1119",
+      "address": "Tulsa, OK",
+      "isActive": true,
+      "createdAt": "2024-02-19T20:30:00.000Z"
+    },
+    {
+      "id": "18",
+      "name": "Marble Arch Imports",
+      "contactName": "Ashley Rivera",
+      "email": "ashley.rivera@marblearchimports.com",
+      "phone": "+1 518 555 1126",
+      "address": "Arlington, TX",
+      "isActive": false,
+      "createdAt": "2024-02-22T20:30:00.000Z"
+    },
+    {
+      "id": "19",
+      "name": "Stonegate Appliances",
+      "contactName": "Mark Cooper",
+      "email": "mark.cooper@stonegateappliances.com",
+      "phone": "+1 519 555 1133",
+      "address": "New Orleans, LA",
+      "isActive": true,
+      "createdAt": "2024-02-25T20:30:00.000Z"
+    },
+    {
+      "id": "20",
+      "name": "Lakeside Textile Mills",
+      "contactName": "Donna Richardson",
+      "email": "donna.richardson@lakesidetextilemills.com",
+      "phone": "+1 520 555 1140",
+      "address": "Wichita, KS",
+      "isActive": true,
+      "createdAt": "2024-02-28T20:30:00.000Z"
+    },
+    {
+      "id": "21",
+      "name": "Brightstar Lighting Co",
+      "contactName": "George Cox",
+      "email": "george.cox@brightstarlightingco.com",
+      "phone": "+1 521 555 1147",
+      "address": "Cleveland, OH",
+      "isActive": true,
+      "createdAt": "2024-03-02T20:30:00.000Z"
+    },
+    {
+      "id": "22",
+      "name": "Vantage Point Kitchenware",
+      "contactName": "Carol Howard",
+      "email": "carol.howard@vantagepointkitchenware.com",
+      "phone": "+1 522 555 1154",
+      "address": "Bakersfield, CA",
+      "isActive": true,
+      "createdAt": "2024-03-05T20:30:00.000Z"
+    },
+    {
+      "id": "23",
+      "name": "Copperfield Tools",
+      "contactName": "Kenneth Ward",
+      "email": "kenneth.ward@copperfieldtools.com",
+      "phone": "+1 523 555 1161",
+      "address": "Aurora, CO",
+      "isActive": true,
+      "createdAt": "2024-03-08T20:30:00.000Z"
+    },
+    {
+      "id": "24",
+      "name": "NorthWind Stationery",
+      "contactName": "Michelle Torres",
+      "email": "michelle.torres@northwindstationery.com",
+      "phone": "+1 524 555 1168",
+      "address": "Anaheim, CA",
+      "isActive": false,
+      "createdAt": "2024-03-11T20:30:00.000Z"
+    },
+    {
+      "id": "25",
+      "name": "Amber Valley Furnishings",
+      "contactName": "Steven Peterson",
+      "email": "steven.peterson@ambervalleyfurnishings.com",
+      "phone": "+1 525 555 1175",
+      "address": "Honolulu, HI",
+      "isActive": true,
+      "createdAt": "2024-03-14T20:30:00.000Z"
+    },
+    {
+      "id": "26",
+      "name": "Skyline Electronics Supply",
+      "contactName": "Emily Gray",
+      "email": "emily.gray@skylineelectronicssupply.com",
+      "phone": "+1 526 555 1182",
+      "address": "Santa Ana, CA",
+      "isActive": true,
+      "createdAt": "2024-03-17T20:30:00.000Z"
+    },
+    {
+      "id": "27",
+      "name": "Riverside Hardware Group",
+      "contactName": "Edward Ramirez",
+      "email": "edward.ramirez@riversidehardwaregroup.com",
+      "phone": "+1 527 555 1189",
+      "address": "Riverside, CA",
+      "isActive": true,
+      "createdAt": "2024-03-20T20:30:00.000Z"
+    },
+    {
+      "id": "28",
+      "name": "Oakmont Packaging",
+      "contactName": "Amanda James",
+      "email": "amanda.james@oakmontpackaging.com",
+      "phone": "+1 528 555 1196",
+      "address": "Corpus Christi, TX",
+      "isActive": true,
+      "createdAt": "2024-03-23T20:30:00.000Z"
+    },
+    {
+      "id": "29",
+      "name": "Prime Source Components",
+      "contactName": "Brian Watson",
+      "email": "brian.watson@primesourcecomponents.com",
+      "phone": "+1 529 555 1203",
+      "address": "Lexington, KY",
+      "isActive": true,
+      "createdAt": "2024-03-26T20:30:00.000Z"
+    },
+    {
+      "id": "30",
+      "name": "Westgate Industrial Supply",
+      "contactName": "Melissa Brooks",
+      "email": "melissa.brooks@westgateindustrialsupply.com",
+      "phone": "+1 530 555 1210",
+      "address": "Stockton, CA",
+      "isActive": false,
+      "createdAt": "2024-03-29T20:30:00.000Z"
+    }
+  ],
+  "employees": [
+    {
+      "id": "1",
+      "firstName": "Jessica",
+      "lastName": "Morgan",
+      "fullName": "Jessica Morgan",
+      "email": "jessica.morgan@erp.com",
+      "phone": "+1 301 555 2011",
+      "department": "Sales",
+      "position": "Sales Representative",
+      "isActive": true,
+      "hireDate": "2021-01-04T20:30:00.000Z",
+      "createdAt": "2021-01-04T20:30:00.000Z"
+    },
+    {
+      "id": "2",
+      "firstName": "Thomas",
+      "lastName": "Bell",
+      "fullName": "Thomas Bell",
+      "email": "thomas.bell@erp.com",
+      "phone": "+1 302 555 2022",
+      "department": "Warehouse",
+      "position": "Inventory Clerk",
+      "isActive": true,
+      "hireDate": "2022-02-05T20:30:00.000Z",
+      "createdAt": "2022-02-05T20:30:00.000Z"
+    },
+    {
+      "id": "3",
+      "firstName": "Karen",
+      "lastName": "Murphy",
+      "fullName": "Karen Murphy",
+      "email": "karen.murphy@erp.com",
+      "phone": "+1 303 555 2033",
+      "department": "Procurement",
+      "position": "Procurement Officer",
+      "isActive": true,
+      "hireDate": "2023-03-06T20:30:00.000Z",
+      "createdAt": "2023-03-06T20:30:00.000Z"
+    },
+    {
+      "id": "4",
+      "firstName": "Charles",
+      "lastName": "Bailey",
+      "fullName": "Charles Bailey",
+      "email": "charles.bailey@erp.com",
+      "phone": "+1 304 555 2044",
+      "department": "Finance",
+      "position": "Accountant",
+      "isActive": true,
+      "hireDate": "2024-04-07T20:30:00.000Z",
+      "createdAt": "2024-04-07T20:30:00.000Z"
+    },
+    {
+      "id": "5",
+      "firstName": "Nancy",
+      "lastName": "Rivera",
+      "fullName": "Nancy Rivera",
+      "email": "nancy.rivera@erp.com",
+      "phone": "+1 305 555 2055",
+      "department": "IT",
+      "position": "IT Support Specialist",
+      "isActive": true,
+      "hireDate": "2021-05-08T19:30:00.000Z",
+      "createdAt": "2021-05-08T19:30:00.000Z"
+    },
+    {
+      "id": "6",
+      "firstName": "Christopher",
+      "lastName": "Cooper",
+      "fullName": "Christopher Cooper",
+      "email": "christopher.cooper@erp.com",
+      "phone": "+1 306 555 2066",
+      "department": "HR",
+      "position": "Recruiter",
+      "isActive": true,
+      "hireDate": "2022-06-09T19:30:00.000Z",
+      "createdAt": "2022-06-09T19:30:00.000Z"
+    },
+    {
+      "id": "7",
+      "firstName": "Betty",
+      "lastName": "Richardson",
+      "fullName": "Betty Richardson",
+      "email": "betty.richardson@erp.com",
+      "phone": "+1 307 555 2077",
+      "department": "Customer Support",
+      "position": "Support Agent",
+      "isActive": true,
+      "hireDate": "2023-07-10T20:30:00.000Z",
+      "createdAt": "2023-07-10T20:30:00.000Z"
+    },
+    {
+      "id": "8",
+      "firstName": "Daniel",
+      "lastName": "Cox",
+      "fullName": "Daniel Cox",
+      "email": "daniel.cox@erp.com",
+      "phone": "+1 308 555 2088",
+      "department": "Operations",
+      "position": "Operations Manager",
+      "isActive": true,
+      "hireDate": "2024-08-11T20:30:00.000Z",
+      "createdAt": "2024-08-11T20:30:00.000Z"
+    },
+    {
+      "id": "9",
+      "firstName": "Sandra",
+      "lastName": "Howard",
+      "fullName": "Sandra Howard",
+      "email": "sandra.howard@erp.com",
+      "phone": "+1 309 555 2099",
+      "department": "Sales",
+      "position": "Account Executive",
+      "isActive": false,
+      "hireDate": "2021-09-12T19:30:00.000Z",
+      "createdAt": "2021-09-12T19:30:00.000Z"
+    },
+    {
+      "id": "10",
+      "firstName": "Paul",
+      "lastName": "Ward",
+      "fullName": "Paul Ward",
+      "email": "paul.ward@erp.com",
+      "phone": "+1 310 555 2110",
+      "department": "Warehouse",
+      "position": "Warehouse Associate",
+      "isActive": true,
+      "hireDate": "2022-10-13T20:30:00.000Z",
+      "createdAt": "2022-10-13T20:30:00.000Z"
+    },
+    {
+      "id": "11",
+      "firstName": "Ashley",
+      "lastName": "Torres",
+      "fullName": "Ashley Torres",
+      "email": "ashley.torres@erp.com",
+      "phone": "+1 311 555 2121",
+      "department": "Procurement",
+      "position": "Procurement Officer",
+      "isActive": true,
+      "hireDate": "2023-11-14T20:30:00.000Z",
+      "createdAt": "2023-11-14T20:30:00.000Z"
+    },
+    {
+      "id": "12",
+      "firstName": "Mark",
+      "lastName": "Peterson",
+      "fullName": "Mark Peterson",
+      "email": "mark.peterson@erp.com",
+      "phone": "+1 312 555 2132",
+      "department": "Finance",
+      "position": "Accounts Payable Clerk",
+      "isActive": true,
+      "hireDate": "2024-12-15T20:30:00.000Z",
+      "createdAt": "2024-12-15T20:30:00.000Z"
+    },
+    {
+      "id": "13",
+      "firstName": "Donna",
+      "lastName": "Gray",
+      "fullName": "Donna Gray",
+      "email": "donna.gray@erp.com",
+      "phone": "+1 313 555 2143",
+      "department": "IT",
+      "position": "IT Support Specialist",
+      "isActive": true,
+      "hireDate": "2021-01-16T20:30:00.000Z",
+      "createdAt": "2021-01-16T20:30:00.000Z"
+    },
+    {
+      "id": "14",
+      "firstName": "George",
+      "lastName": "Ramirez",
+      "fullName": "George Ramirez",
+      "email": "george.ramirez@erp.com",
+      "phone": "+1 314 555 2154",
+      "department": "HR",
+      "position": "Recruiter",
+      "isActive": true,
+      "hireDate": "2022-02-17T20:30:00.000Z",
+      "createdAt": "2022-02-17T20:30:00.000Z"
+    },
+    {
+      "id": "15",
+      "firstName": "Carol",
+      "lastName": "James",
+      "fullName": "Carol James",
+      "email": "carol.james@erp.com",
+      "phone": "+1 315 555 2165",
+      "department": "Customer Support",
+      "position": "Support Agent",
+      "isActive": true,
+      "hireDate": "2023-03-18T20:30:00.000Z",
+      "createdAt": "2023-03-18T20:30:00.000Z"
+    },
+    {
+      "id": "16",
+      "firstName": "Kenneth",
+      "lastName": "Watson",
+      "fullName": "Kenneth Watson",
+      "email": "kenneth.watson@erp.com",
+      "phone": "+1 316 555 2176",
+      "department": "Operations",
+      "position": "Operations Manager",
+      "isActive": true,
+      "hireDate": "2024-04-19T20:30:00.000Z",
+      "createdAt": "2024-04-19T20:30:00.000Z"
+    },
+    {
+      "id": "17",
+      "firstName": "Michelle",
+      "lastName": "Brooks",
+      "fullName": "Michelle Brooks",
+      "email": "michelle.brooks@erp.com",
+      "phone": "+1 317 555 2187",
+      "department": "Sales",
+      "position": "Sales Manager",
+      "isActive": true,
+      "hireDate": "2021-05-20T19:30:00.000Z",
+      "createdAt": "2021-05-20T19:30:00.000Z"
+    },
+    {
+      "id": "18",
+      "firstName": "Steven",
+      "lastName": "Turner",
+      "fullName": "Steven Turner",
+      "email": "steven.turner@erp.com",
+      "phone": "+1 318 555 2198",
+      "department": "Warehouse",
+      "position": "Warehouse Supervisor",
+      "isActive": false,
+      "hireDate": "2022-06-21T19:30:00.000Z",
+      "createdAt": "2022-06-21T19:30:00.000Z"
+    },
+    {
+      "id": "19",
+      "firstName": "Emily",
+      "lastName": "Phillips",
+      "fullName": "Emily Phillips",
+      "email": "emily.phillips@erp.com",
+      "phone": "+1 319 555 2209",
+      "department": "Procurement",
+      "position": "Procurement Officer",
+      "isActive": true,
+      "hireDate": "2023-07-22T20:30:00.000Z",
+      "createdAt": "2023-07-22T20:30:00.000Z"
+    },
+    {
+      "id": "20",
+      "firstName": "Edward",
+      "lastName": "Campbell",
+      "fullName": "Edward Campbell",
+      "email": "edward.campbell@erp.com",
+      "phone": "+1 320 555 2220",
+      "department": "Finance",
+      "position": "Finance Analyst",
+      "isActive": true,
+      "hireDate": "2024-08-23T20:30:00.000Z",
+      "createdAt": "2024-08-23T20:30:00.000Z"
+    },
+    {
+      "id": "21",
+      "firstName": "Amanda",
+      "lastName": "Parker",
+      "fullName": "Amanda Parker",
+      "email": "amanda.parker@erp.com",
+      "phone": "+1 321 555 2231",
+      "department": "IT",
+      "position": "IT Support Specialist",
+      "isActive": true,
+      "hireDate": "2021-09-04T19:30:00.000Z",
+      "createdAt": "2021-09-04T19:30:00.000Z"
+    },
+    {
+      "id": "22",
+      "firstName": "Brian",
+      "lastName": "Evans",
+      "fullName": "Brian Evans",
+      "email": "brian.evans@erp.com",
+      "phone": "+1 322 555 2242",
+      "department": "HR",
+      "position": "Recruiter",
+      "isActive": true,
+      "hireDate": "2022-10-05T20:30:00.000Z",
+      "createdAt": "2022-10-05T20:30:00.000Z"
+    },
+    {
+      "id": "23",
+      "firstName": "Melissa",
+      "lastName": "Edwards",
+      "fullName": "Melissa Edwards",
+      "email": "melissa.edwards@erp.com",
+      "phone": "+1 323 555 2253",
+      "department": "Customer Support",
+      "position": "Support Agent",
+      "isActive": true,
+      "hireDate": "2023-11-06T20:30:00.000Z",
+      "createdAt": "2023-11-06T20:30:00.000Z"
+    },
+    {
+      "id": "24",
+      "firstName": "Robert",
+      "lastName": "Collins",
+      "fullName": "Robert Collins",
+      "email": "robert.collins@erp.com",
+      "phone": "+1 324 555 2264",
+      "department": "Operations",
+      "position": "Operations Manager",
+      "isActive": true,
+      "hireDate": "2024-12-07T20:30:00.000Z",
+      "createdAt": "2024-12-07T20:30:00.000Z"
+    },
+    {
+      "id": "25",
+      "firstName": "Linda",
+      "lastName": "Stewart",
+      "fullName": "Linda Stewart",
+      "email": "linda.stewart@erp.com",
+      "phone": "+1 325 555 2275",
+      "department": "Sales",
+      "position": "Sales Representative",
+      "isActive": true,
+      "hireDate": "2021-01-08T20:30:00.000Z",
+      "createdAt": "2021-01-08T20:30:00.000Z"
+    },
+    {
+      "id": "26",
+      "firstName": "William",
+      "lastName": "Sanchez",
+      "fullName": "William Sanchez",
+      "email": "william.sanchez@erp.com",
+      "phone": "+1 326 555 2286",
+      "department": "Warehouse",
+      "position": "Inventory Clerk",
+      "isActive": true,
+      "hireDate": "2022-02-09T20:30:00.000Z",
+      "createdAt": "2022-02-09T20:30:00.000Z"
+    },
+    {
+      "id": "27",
+      "firstName": "Barbara",
+      "lastName": "Morris",
+      "fullName": "Barbara Morris",
+      "email": "barbara.morris@erp.com",
+      "phone": "+1 327 555 2297",
+      "department": "Procurement",
+      "position": "Procurement Officer",
+      "isActive": false,
+      "hireDate": "2023-03-10T20:30:00.000Z",
+      "createdAt": "2023-03-10T20:30:00.000Z"
+    },
+    {
+      "id": "28",
+      "firstName": "Richard",
+      "lastName": "Rogers",
+      "fullName": "Richard Rogers",
+      "email": "richard.rogers@erp.com",
+      "phone": "+1 328 555 2308",
+      "department": "Finance",
+      "position": "Accountant",
+      "isActive": true,
+      "hireDate": "2024-04-11T20:30:00.000Z",
+      "createdAt": "2024-04-11T20:30:00.000Z"
+    },
+    {
+      "id": "29",
+      "firstName": "Susan",
+      "lastName": "Reed",
+      "fullName": "Susan Reed",
+      "email": "susan.reed@erp.com",
+      "phone": "+1 329 555 2319",
+      "department": "IT",
+      "position": "IT Support Specialist",
+      "isActive": true,
+      "hireDate": "2021-05-12T19:30:00.000Z",
+      "createdAt": "2021-05-12T19:30:00.000Z"
+    },
+    {
+      "id": "30",
+      "firstName": "Joseph",
+      "lastName": "Cook",
+      "fullName": "Joseph Cook",
+      "email": "joseph.cook@erp.com",
+      "phone": "+1 330 555 2330",
+      "department": "HR",
+      "position": "Recruiter",
+      "isActive": true,
+      "hireDate": "2022-06-13T19:30:00.000Z",
+      "createdAt": "2022-06-13T19:30:00.000Z"
+    }
+  ],
+  "sales": [
+    {
+      "id": "1",
+      "invoiceNumber": "INV-1001",
+      "customerId": "1",
+      "totalAmount": 80,
+      "status": "completed",
+      "saleDate": "2024-01-01T20:30:00.000Z",
+      "createdAt": "2024-01-01T20:30:00.000Z"
+    },
+    {
+      "id": "2",
+      "invoiceNumber": "INV-1002",
+      "customerId": "4",
+      "totalAmount": 117,
+      "status": "completed",
+      "saleDate": "2024-01-05T20:30:00.000Z",
+      "createdAt": "2024-01-05T20:30:00.000Z"
+    },
+    {
+      "id": "3",
+      "invoiceNumber": "INV-1003",
+      "customerId": "V3rb8Atm8i4",
+      "totalAmount": 154,
+      "status": "completed",
+      "saleDate": "2024-01-09T20:30:00.000Z",
+      "createdAt": "2024-01-09T20:30:00.000Z"
+    },
+    {
+      "id": "4",
+      "invoiceNumber": "INV-1004",
+      "customerId": "8",
+      "totalAmount": 191,
+      "status": "pending",
+      "saleDate": "2024-01-13T20:30:00.000Z",
+      "createdAt": "2024-01-13T20:30:00.000Z"
+    },
+    {
+      "id": "5",
+      "invoiceNumber": "INV-1005",
+      "customerId": "11",
+      "totalAmount": 228,
+      "status": "cancelled",
+      "saleDate": "2024-01-17T20:30:00.000Z",
+      "createdAt": "2024-01-17T20:30:00.000Z"
+    },
+    {
+      "id": "6",
+      "invoiceNumber": "INV-1006",
+      "customerId": "14",
+      "totalAmount": 265,
+      "status": "completed",
+      "saleDate": "2024-01-21T20:30:00.000Z",
+      "createdAt": "2024-01-21T20:30:00.000Z"
+    },
+    {
+      "id": "7",
+      "invoiceNumber": "INV-1007",
+      "customerId": "6",
+      "totalAmount": 93,
+      "status": "completed",
+      "saleDate": "2024-02-02T20:30:00.000Z",
+      "createdAt": "2024-02-02T20:30:00.000Z"
+    },
+    {
+      "id": "8",
+      "invoiceNumber": "INV-1008",
+      "customerId": "9",
+      "totalAmount": 130,
+      "status": "completed",
+      "saleDate": "2024-02-06T20:30:00.000Z",
+      "createdAt": "2024-02-06T20:30:00.000Z"
+    },
+    {
+      "id": "9",
+      "invoiceNumber": "INV-1009",
+      "customerId": "12",
+      "totalAmount": 167,
+      "status": "pending",
+      "saleDate": "2024-02-10T20:30:00.000Z",
+      "createdAt": "2024-02-10T20:30:00.000Z"
+    },
+    {
+      "id": "10",
+      "invoiceNumber": "INV-1010",
+      "customerId": "15",
+      "totalAmount": 204,
+      "status": "cancelled",
+      "saleDate": "2024-02-14T20:30:00.000Z",
+      "createdAt": "2024-02-14T20:30:00.000Z"
+    },
+    {
+      "id": "11",
+      "invoiceNumber": "INV-1011",
+      "customerId": "18",
+      "totalAmount": 241,
+      "status": "completed",
+      "saleDate": "2024-02-18T20:30:00.000Z",
+      "createdAt": "2024-02-18T20:30:00.000Z"
+    },
+    {
+      "id": "12",
+      "invoiceNumber": "INV-1012",
+      "customerId": "21",
+      "totalAmount": 278,
+      "status": "completed",
+      "saleDate": "2024-02-22T20:30:00.000Z",
+      "createdAt": "2024-02-22T20:30:00.000Z"
+    },
+    {
+      "id": "13",
+      "invoiceNumber": "INV-1013",
+      "customerId": "13",
+      "totalAmount": 106,
+      "status": "completed",
+      "saleDate": "2024-03-03T20:30:00.000Z",
+      "createdAt": "2024-03-03T20:30:00.000Z"
+    },
+    {
+      "id": "14",
+      "invoiceNumber": "INV-1014",
+      "customerId": "16",
+      "totalAmount": 143,
+      "status": "pending",
+      "saleDate": "2024-03-07T20:30:00.000Z",
+      "createdAt": "2024-03-07T20:30:00.000Z"
+    },
+    {
+      "id": "15",
+      "invoiceNumber": "INV-1015",
+      "customerId": "19",
+      "totalAmount": 180,
+      "status": "cancelled",
+      "saleDate": "2024-03-11T20:30:00.000Z",
+      "createdAt": "2024-03-11T20:30:00.000Z"
+    },
+    {
+      "id": "16",
+      "invoiceNumber": "INV-1016",
+      "customerId": "22",
+      "totalAmount": 217,
+      "status": "completed",
+      "saleDate": "2024-03-15T20:30:00.000Z",
+      "createdAt": "2024-03-15T20:30:00.000Z"
+    },
+    {
+      "id": "17",
+      "invoiceNumber": "INV-1017",
+      "customerId": "25",
+      "totalAmount": 254,
+      "status": "completed",
+      "saleDate": "2024-03-19T20:30:00.000Z",
+      "createdAt": "2024-03-19T20:30:00.000Z"
+    },
+    {
+      "id": "18",
+      "invoiceNumber": "INV-1018",
+      "customerId": "28",
+      "totalAmount": 291,
+      "status": "completed",
+      "saleDate": "2024-03-23T20:30:00.000Z",
+      "createdAt": "2024-03-23T20:30:00.000Z"
+    },
+    {
+      "id": "19",
+      "invoiceNumber": "INV-1019",
+      "customerId": "20",
+      "totalAmount": 119,
+      "status": "pending",
+      "saleDate": "2024-04-01T20:30:00.000Z",
+      "createdAt": "2024-04-01T20:30:00.000Z"
+    },
+    {
+      "id": "20",
+      "invoiceNumber": "INV-1020",
+      "customerId": "23",
+      "totalAmount": 156,
+      "status": "cancelled",
+      "saleDate": "2024-04-05T20:30:00.000Z",
+      "createdAt": "2024-04-05T20:30:00.000Z"
+    },
+    {
+      "id": "21",
+      "invoiceNumber": "INV-1021",
+      "customerId": "26",
+      "totalAmount": 193,
+      "status": "completed",
+      "saleDate": "2024-04-09T20:30:00.000Z",
+      "createdAt": "2024-04-09T20:30:00.000Z"
+    },
+    {
+      "id": "22",
+      "invoiceNumber": "INV-1022",
+      "customerId": "1",
+      "totalAmount": 230,
+      "status": "completed",
+      "saleDate": "2024-04-13T20:30:00.000Z",
+      "createdAt": "2024-04-13T20:30:00.000Z"
+    },
+    {
+      "id": "23",
+      "invoiceNumber": "INV-1023",
+      "customerId": "4",
+      "totalAmount": 267,
+      "status": "completed",
+      "saleDate": "2024-04-17T20:30:00.000Z",
+      "createdAt": "2024-04-17T20:30:00.000Z"
+    },
+    {
+      "id": "24",
+      "invoiceNumber": "INV-1024",
+      "customerId": "V3rb8Atm8i4",
+      "totalAmount": 304,
+      "status": "pending",
+      "saleDate": "2024-04-21T20:30:00.000Z",
+      "createdAt": "2024-04-21T20:30:00.000Z"
+    },
+    {
+      "id": "25",
+      "invoiceNumber": "INV-1025",
+      "customerId": "27",
+      "totalAmount": 132,
+      "status": "cancelled",
+      "saleDate": "2024-05-02T20:30:00.000Z",
+      "createdAt": "2024-05-02T20:30:00.000Z"
+    },
+    {
+      "id": "26",
+      "invoiceNumber": "INV-1026",
+      "customerId": "2",
+      "totalAmount": 169,
+      "status": "completed",
+      "saleDate": "2024-05-06T20:30:00.000Z",
+      "createdAt": "2024-05-06T20:30:00.000Z"
+    },
+    {
+      "id": "27",
+      "invoiceNumber": "INV-1027",
+      "customerId": "5",
+      "totalAmount": 206,
+      "status": "completed",
+      "saleDate": "2024-05-10T20:30:00.000Z",
+      "createdAt": "2024-05-10T20:30:00.000Z"
+    },
+    {
+      "id": "28",
+      "invoiceNumber": "INV-1028",
+      "customerId": "6",
+      "totalAmount": 243,
+      "status": "completed",
+      "saleDate": "2024-05-14T20:30:00.000Z",
+      "createdAt": "2024-05-14T20:30:00.000Z"
+    },
+    {
+      "id": "29",
+      "invoiceNumber": "INV-1029",
+      "customerId": "9",
+      "totalAmount": 280,
+      "status": "pending",
+      "saleDate": "2024-05-18T20:30:00.000Z",
+      "createdAt": "2024-05-18T20:30:00.000Z"
+    },
+    {
+      "id": "30",
+      "invoiceNumber": "INV-1030",
+      "customerId": "12",
+      "totalAmount": 317,
+      "status": "cancelled",
+      "saleDate": "2024-05-22T20:30:00.000Z",
+      "createdAt": "2024-05-22T20:30:00.000Z"
+    },
+    {
+      "id": "31",
+      "invoiceNumber": "INV-1031",
+      "customerId": "P9HBga_AZ2k",
+      "totalAmount": 145,
+      "status": "completed",
+      "saleDate": "2024-06-03T20:30:00.000Z",
+      "createdAt": "2024-06-03T20:30:00.000Z"
+    },
+    {
+      "id": "32",
+      "invoiceNumber": "INV-1032",
+      "customerId": "7",
+      "totalAmount": 182,
+      "status": "completed",
+      "saleDate": "2024-06-07T20:30:00.000Z",
+      "createdAt": "2024-06-07T20:30:00.000Z"
+    },
+    {
+      "id": "33",
+      "invoiceNumber": "INV-1033",
+      "customerId": "10",
+      "totalAmount": 219,
+      "status": "completed",
+      "saleDate": "2024-06-11T20:30:00.000Z",
+      "createdAt": "2024-06-11T20:30:00.000Z"
+    },
+    {
+      "id": "34",
+      "invoiceNumber": "INV-1034",
+      "customerId": "13",
+      "totalAmount": 256,
+      "status": "pending",
+      "saleDate": "2024-06-15T20:30:00.000Z",
+      "createdAt": "2024-06-15T20:30:00.000Z"
+    },
+    {
+      "id": "35",
+      "invoiceNumber": "INV-1035",
+      "customerId": "16",
+      "totalAmount": 293,
+      "status": "cancelled",
+      "saleDate": "2024-06-19T20:30:00.000Z",
+      "createdAt": "2024-06-19T20:30:00.000Z"
+    },
+    {
+      "id": "36",
+      "invoiceNumber": "INV-1036",
+      "customerId": "19",
+      "totalAmount": 330,
+      "status": "completed",
+      "saleDate": "2024-06-23T20:30:00.000Z",
+      "createdAt": "2024-06-23T20:30:00.000Z"
+    }
+  ],
+  "purchases": [
+    {
+      "id": "1",
+      "purchaseNumber": "PO-5001",
+      "supplierId": "1",
+      "totalAmount": 300,
+      "status": "received",
+      "purchaseDate": "2024-01-03T20:30:00.000Z",
+      "createdAt": "2024-01-03T20:30:00.000Z"
+    },
+    {
+      "id": "2",
+      "purchaseNumber": "PO-5002",
+      "supplierId": "5",
+      "totalAmount": 353,
+      "status": "received",
+      "purchaseDate": "2024-01-08T20:30:00.000Z",
+      "createdAt": "2024-01-08T20:30:00.000Z"
+    },
+    {
+      "id": "3",
+      "purchaseNumber": "PO-5003",
+      "supplierId": "9",
+      "totalAmount": 406,
+      "status": "pending",
+      "purchaseDate": "2024-01-13T20:30:00.000Z",
+      "createdAt": "2024-01-13T20:30:00.000Z"
+    },
+    {
+      "id": "4",
+      "purchaseNumber": "PO-5004",
+      "supplierId": "13",
+      "totalAmount": 459,
+      "status": "received",
+      "purchaseDate": "2024-01-18T20:30:00.000Z",
+      "createdAt": "2024-01-18T20:30:00.000Z"
+    },
+    {
+      "id": "5",
+      "purchaseNumber": "PO-5005",
+      "supplierId": "17",
+      "totalAmount": 512,
+      "status": "cancelled",
+      "purchaseDate": "2024-01-23T20:30:00.000Z",
+      "createdAt": "2024-01-23T20:30:00.000Z"
+    },
+    {
+      "id": "6",
+      "purchaseNumber": "PO-5006",
+      "supplierId": "6",
+      "totalAmount": 321,
+      "status": "received",
+      "purchaseDate": "2024-02-04T20:30:00.000Z",
+      "createdAt": "2024-02-04T20:30:00.000Z"
+    },
+    {
+      "id": "7",
+      "purchaseNumber": "PO-5007",
+      "supplierId": "10",
+      "totalAmount": 374,
+      "status": "pending",
+      "purchaseDate": "2024-02-09T20:30:00.000Z",
+      "createdAt": "2024-02-09T20:30:00.000Z"
+    },
+    {
+      "id": "8",
+      "purchaseNumber": "PO-5008",
+      "supplierId": "14",
+      "totalAmount": 427,
+      "status": "received",
+      "purchaseDate": "2024-02-14T20:30:00.000Z",
+      "createdAt": "2024-02-14T20:30:00.000Z"
+    },
+    {
+      "id": "9",
+      "purchaseNumber": "PO-5009",
+      "supplierId": "18",
+      "totalAmount": 480,
+      "status": "cancelled",
+      "purchaseDate": "2024-02-19T20:30:00.000Z",
+      "createdAt": "2024-02-19T20:30:00.000Z"
+    },
+    {
+      "id": "10",
+      "purchaseNumber": "PO-5010",
+      "supplierId": "22",
+      "totalAmount": 533,
+      "status": "received",
+      "purchaseDate": "2024-02-24T20:30:00.000Z",
+      "createdAt": "2024-02-24T20:30:00.000Z"
+    },
+    {
+      "id": "11",
+      "purchaseNumber": "PO-5011",
+      "supplierId": "11",
+      "totalAmount": 342,
+      "status": "pending",
+      "purchaseDate": "2024-03-05T20:30:00.000Z",
+      "createdAt": "2024-03-05T20:30:00.000Z"
+    },
+    {
+      "id": "12",
+      "purchaseNumber": "PO-5012",
+      "supplierId": "15",
+      "totalAmount": 395,
+      "status": "received",
+      "purchaseDate": "2024-03-10T20:30:00.000Z",
+      "createdAt": "2024-03-10T20:30:00.000Z"
+    },
+    {
+      "id": "13",
+      "purchaseNumber": "PO-5013",
+      "supplierId": "19",
+      "totalAmount": 448,
+      "status": "cancelled",
+      "purchaseDate": "2024-03-15T20:30:00.000Z",
+      "createdAt": "2024-03-15T20:30:00.000Z"
+    },
+    {
+      "id": "14",
+      "purchaseNumber": "PO-5014",
+      "supplierId": "23",
+      "totalAmount": 501,
+      "status": "received",
+      "purchaseDate": "2024-03-20T20:30:00.000Z",
+      "createdAt": "2024-03-20T20:30:00.000Z"
+    },
+    {
+      "id": "15",
+      "purchaseNumber": "PO-5015",
+      "supplierId": "27",
+      "totalAmount": 554,
+      "status": "received",
+      "purchaseDate": "2024-03-25T20:30:00.000Z",
+      "createdAt": "2024-03-25T20:30:00.000Z"
+    },
+    {
+      "id": "16",
+      "purchaseNumber": "PO-5016",
+      "supplierId": "16",
+      "totalAmount": 363,
+      "status": "received",
+      "purchaseDate": "2024-04-06T20:30:00.000Z",
+      "createdAt": "2024-04-06T20:30:00.000Z"
+    },
+    {
+      "id": "17",
+      "purchaseNumber": "PO-5017",
+      "supplierId": "20",
+      "totalAmount": 416,
+      "status": "cancelled",
+      "purchaseDate": "2024-04-11T20:30:00.000Z",
+      "createdAt": "2024-04-11T20:30:00.000Z"
+    },
+    {
+      "id": "18",
+      "purchaseNumber": "PO-5018",
+      "supplierId": "24",
+      "totalAmount": 469,
+      "status": "received",
+      "purchaseDate": "2024-04-16T20:30:00.000Z",
+      "createdAt": "2024-04-16T20:30:00.000Z"
+    },
+    {
+      "id": "19",
+      "purchaseNumber": "PO-5019",
+      "supplierId": "28",
+      "totalAmount": 522,
+      "status": "received",
+      "purchaseDate": "2024-04-21T20:30:00.000Z",
+      "createdAt": "2024-04-21T20:30:00.000Z"
+    },
+    {
+      "id": "20",
+      "purchaseNumber": "PO-5020",
+      "supplierId": "2",
+      "totalAmount": 575,
+      "status": "pending",
+      "purchaseDate": "2024-04-26T20:30:00.000Z",
+      "createdAt": "2024-04-26T20:30:00.000Z"
+    },
+    {
+      "id": "21",
+      "purchaseNumber": "PO-5021",
+      "supplierId": "21",
+      "totalAmount": 384,
+      "status": "cancelled",
+      "purchaseDate": "2024-05-03T20:30:00.000Z",
+      "createdAt": "2024-05-03T20:30:00.000Z"
+    },
+    {
+      "id": "22",
+      "purchaseNumber": "PO-5022",
+      "supplierId": "25",
+      "totalAmount": 437,
+      "status": "received",
+      "purchaseDate": "2024-05-08T20:30:00.000Z",
+      "createdAt": "2024-05-08T20:30:00.000Z"
+    },
+    {
+      "id": "23",
+      "purchaseNumber": "PO-5023",
+      "supplierId": "29",
+      "totalAmount": 490,
+      "status": "received",
+      "purchaseDate": "2024-05-13T20:30:00.000Z",
+      "createdAt": "2024-05-13T20:30:00.000Z"
+    },
+    {
+      "id": "24",
+      "purchaseNumber": "PO-5024",
+      "supplierId": "3",
+      "totalAmount": 543,
+      "status": "pending",
+      "purchaseDate": "2024-05-18T20:30:00.000Z",
+      "createdAt": "2024-05-18T20:30:00.000Z"
+    },
+    {
+      "id": "25",
+      "purchaseNumber": "PO-5025",
+      "supplierId": "7",
+      "totalAmount": 596,
+      "status": "received",
+      "purchaseDate": "2024-05-23T20:30:00.000Z",
+      "createdAt": "2024-05-23T20:30:00.000Z"
+    },
+    {
+      "id": "26",
+      "purchaseNumber": "PO-5026",
+      "supplierId": "26",
+      "totalAmount": 405,
+      "status": "received",
+      "purchaseDate": "2024-06-04T20:30:00.000Z",
+      "createdAt": "2024-06-04T20:30:00.000Z"
+    },
+    {
+      "id": "27",
+      "purchaseNumber": "PO-5027",
+      "supplierId": "30",
+      "totalAmount": 458,
+      "status": "received",
+      "purchaseDate": "2024-06-09T20:30:00.000Z",
+      "createdAt": "2024-06-09T20:30:00.000Z"
+    },
+    {
+      "id": "28",
+      "purchaseNumber": "PO-5028",
+      "supplierId": "4",
+      "totalAmount": 511,
+      "status": "pending",
+      "purchaseDate": "2024-06-14T20:30:00.000Z",
+      "createdAt": "2024-06-14T20:30:00.000Z"
+    },
+    {
+      "id": "29",
+      "purchaseNumber": "PO-5029",
+      "supplierId": "8",
+      "totalAmount": 564,
+      "status": "received",
+      "purchaseDate": "2024-06-19T20:30:00.000Z",
+      "createdAt": "2024-06-19T20:30:00.000Z"
+    },
+    {
+      "id": "30",
+      "purchaseNumber": "PO-5030",
+      "supplierId": "12",
+      "totalAmount": 617,
+      "status": "cancelled",
+      "purchaseDate": "2024-06-24T20:30:00.000Z",
+      "createdAt": "2024-06-24T20:30:00.000Z"
+    }
+  ],
+  "stockMovements": [
+    {
+      "id": "1",
+      "productId": "1",
+      "type": "in",
+      "quantity": 10,
+      "reason": "Restock from supplier",
+      "performedBy": "Jessica Morgan",
+      "movementDate": "2024-01-02T05:45:00.000Z",
+      "createdAt": "2024-01-02T05:45:00.000Z"
+    },
+    {
+      "id": "2",
+      "productId": "8",
+      "type": "in",
+      "quantity": 23,
+      "reason": "Purchase order received",
+      "performedBy": "Charles Bailey",
+      "movementDate": "2024-02-05T06:45:00.000Z",
+      "createdAt": "2024-02-05T06:45:00.000Z"
+    },
+    {
+      "id": "3",
+      "productId": "15",
+      "type": "out",
+      "quantity": 12,
+      "reason": "Stock transfer out",
+      "performedBy": "Betty Richardson",
+      "movementDate": "2024-03-08T07:45:00.000Z",
+      "createdAt": "2024-03-08T07:45:00.000Z"
+    },
+    {
+      "id": "4",
+      "productId": "22",
+      "type": "out",
+      "quantity": 17,
+      "reason": "Shrinkage",
+      "performedBy": "Paul Ward",
+      "movementDate": "2024-04-11T08:45:00.000Z",
+      "createdAt": "2024-04-11T08:45:00.000Z"
+    },
+    {
+      "id": "5",
+      "productId": "29",
+      "type": "adjustment",
+      "quantity": 68,
+      "reason": "Cycle count adjustment",
+      "performedBy": "Donna Gray",
+      "movementDate": "2024-05-14T09:45:00.000Z",
+      "createdAt": "2024-05-14T09:45:00.000Z"
+    },
+    {
+      "id": "6",
+      "productId": "7",
+      "type": "in",
+      "quantity": 75,
+      "reason": "Purchase order received",
+      "performedBy": "Kenneth Watson",
+      "movementDate": "2024-06-17T10:45:00.000Z",
+      "createdAt": "2024-06-17T10:45:00.000Z"
+    },
+    {
+      "id": "7",
+      "productId": "14",
+      "type": "in",
+      "quantity": 88,
+      "reason": "Customer return",
+      "performedBy": "Emily Phillips",
+      "movementDate": "2024-01-20T11:45:00.000Z",
+      "createdAt": "2024-01-20T11:45:00.000Z"
+    },
+    {
+      "id": "8",
+      "productId": "21",
+      "type": "out",
+      "quantity": 7,
+      "reason": "Shrinkage",
+      "performedBy": "Brian Evans",
+      "movementDate": "2024-02-23T12:45:00.000Z",
+      "createdAt": "2024-02-23T12:45:00.000Z"
+    },
+    {
+      "id": "9",
+      "productId": "28",
+      "type": "out",
+      "quantity": 12,
+      "reason": "Sale fulfillment",
+      "performedBy": "Linda Stewart",
+      "movementDate": "2024-03-26T05:45:00.000Z",
+      "createdAt": "2024-03-26T05:45:00.000Z"
+    },
+    {
+      "id": "10",
+      "productId": "6",
+      "type": "adjustment",
+      "quantity": 153,
+      "reason": "Inventory count correction",
+      "performedBy": "Richard Rogers",
+      "movementDate": "2024-04-03T06:45:00.000Z",
+      "createdAt": "2024-04-03T06:45:00.000Z"
+    },
+    {
+      "id": "11",
+      "productId": "13",
+      "type": "in",
+      "quantity": 50,
+      "reason": "Customer return",
+      "performedBy": "Jessica Morgan",
+      "movementDate": "2024-05-06T07:45:00.000Z",
+      "createdAt": "2024-05-06T07:45:00.000Z"
+    },
+    {
+      "id": "12",
+      "productId": "20",
+      "type": "in",
+      "quantity": 63,
+      "reason": "Stock transfer in",
+      "performedBy": "Charles Bailey",
+      "movementDate": "2024-06-09T08:45:00.000Z",
+      "createdAt": "2024-06-09T08:45:00.000Z"
+    },
+    {
+      "id": "13",
+      "productId": "27",
+      "type": "out",
+      "quantity": 2,
+      "reason": "Sale fulfillment",
+      "performedBy": "Betty Richardson",
+      "movementDate": "2024-01-12T09:45:00.000Z",
+      "createdAt": "2024-01-12T09:45:00.000Z"
+    },
+    {
+      "id": "14",
+      "productId": "5",
+      "type": "out",
+      "quantity": 7,
+      "reason": "Damaged goods",
+      "performedBy": "Paul Ward",
+      "movementDate": "2024-02-15T10:45:00.000Z",
+      "createdAt": "2024-02-15T10:45:00.000Z"
+    },
+    {
+      "id": "15",
+      "productId": "12",
+      "type": "adjustment",
+      "quantity": 38,
+      "reason": "System correction",
+      "performedBy": "Donna Gray",
+      "movementDate": "2024-03-18T11:45:00.000Z",
+      "createdAt": "2024-03-18T11:45:00.000Z"
+    },
+    {
+      "id": "16",
+      "productId": "19",
+      "type": "in",
+      "quantity": 25,
+      "reason": "Stock transfer in",
+      "performedBy": "Kenneth Watson",
+      "movementDate": "2024-04-21T12:45:00.000Z",
+      "createdAt": "2024-04-21T12:45:00.000Z"
+    },
+    {
+      "id": "17",
+      "productId": "26",
+      "type": "in",
+      "quantity": 38,
+      "reason": "Restock from supplier",
+      "performedBy": "Emily Phillips",
+      "movementDate": "2024-05-24T05:45:00.000Z",
+      "createdAt": "2024-05-24T05:45:00.000Z"
+    },
+    {
+      "id": "18",
+      "productId": "4",
+      "type": "out",
+      "quantity": 27,
+      "reason": "Damaged goods",
+      "performedBy": "Brian Evans",
+      "movementDate": "2024-06-27T06:45:00.000Z",
+      "createdAt": "2024-06-27T06:45:00.000Z"
+    },
+    {
+      "id": "19",
+      "productId": "11",
+      "type": "out",
+      "quantity": 2,
+      "reason": "Stock transfer out",
+      "performedBy": "Linda Stewart",
+      "movementDate": "2024-01-04T07:45:00.000Z",
+      "createdAt": "2024-01-04T07:45:00.000Z"
+    },
+    {
+      "id": "20",
+      "productId": "18",
+      "type": "adjustment",
+      "quantity": 123,
+      "reason": "Cycle count adjustment",
+      "performedBy": "Richard Rogers",
+      "movementDate": "2024-02-07T08:45:00.000Z",
+      "createdAt": "2024-02-07T08:45:00.000Z"
+    },
+    {
+      "id": "21",
+      "productId": "25",
+      "type": "in",
+      "quantity": 90,
+      "reason": "Restock from supplier",
+      "performedBy": "Jessica Morgan",
+      "movementDate": "2024-03-10T09:45:00.000Z",
+      "createdAt": "2024-03-10T09:45:00.000Z"
+    },
+    {
+      "id": "22",
+      "productId": "3",
+      "type": "in",
+      "quantity": 13,
+      "reason": "Purchase order received",
+      "performedBy": "Charles Bailey",
+      "movementDate": "2024-04-13T10:45:00.000Z",
+      "createdAt": "2024-04-13T10:45:00.000Z"
+    },
+    {
+      "id": "23",
+      "productId": "10",
+      "type": "out",
+      "quantity": 22,
+      "reason": "Stock transfer out",
+      "performedBy": "Betty Richardson",
+      "movementDate": "2024-05-16T11:45:00.000Z",
+      "createdAt": "2024-05-16T11:45:00.000Z"
+    },
+    {
+      "id": "24",
+      "productId": "17",
+      "type": "out",
+      "quantity": 27,
+      "reason": "Shrinkage",
+      "performedBy": "Paul Ward",
+      "movementDate": "2024-06-19T12:45:00.000Z",
+      "createdAt": "2024-06-19T12:45:00.000Z"
+    },
+    {
+      "id": "25",
+      "productId": "24",
+      "type": "adjustment",
+      "quantity": 8,
+      "reason": "Inventory count correction",
+      "performedBy": "Donna Gray",
+      "movementDate": "2024-01-22T05:45:00.000Z",
+      "createdAt": "2024-01-22T05:45:00.000Z"
+    },
+    {
+      "id": "26",
+      "productId": "2",
+      "type": "in",
+      "quantity": 65,
+      "reason": "Purchase order received",
+      "performedBy": "Kenneth Watson",
+      "movementDate": "2024-02-25T06:45:00.000Z",
+      "createdAt": "2024-02-25T06:45:00.000Z"
+    },
+    {
+      "id": "27",
+      "productId": "9",
+      "type": "in",
+      "quantity": 78,
+      "reason": "Customer return",
+      "performedBy": "Emily Phillips",
+      "movementDate": "2024-03-02T07:45:00.000Z",
+      "createdAt": "2024-03-02T07:45:00.000Z"
+    },
+    {
+      "id": "28",
+      "productId": "16",
+      "type": "out",
+      "quantity": 17,
+      "reason": "Shrinkage",
+      "performedBy": "Brian Evans",
+      "movementDate": "2024-04-05T08:45:00.000Z",
+      "createdAt": "2024-04-05T08:45:00.000Z"
+    },
+    {
+      "id": "29",
+      "productId": "23",
+      "type": "out",
+      "quantity": 22,
+      "reason": "Sale fulfillment",
+      "performedBy": "Linda Stewart",
+      "movementDate": "2024-05-08T09:45:00.000Z",
+      "createdAt": "2024-05-08T09:45:00.000Z"
+    },
+    {
+      "id": "30",
+      "productId": "1",
+      "type": "adjustment",
+      "quantity": 93,
+      "reason": "System correction",
+      "performedBy": "Richard Rogers",
+      "movementDate": "2024-06-11T10:45:00.000Z",
+      "createdAt": "2024-06-11T10:45:00.000Z"
+    },
+    {
+      "id": "31",
+      "productId": "8",
+      "type": "in",
+      "quantity": 40,
+      "reason": "Customer return",
+      "performedBy": "Jessica Morgan",
+      "movementDate": "2024-01-14T11:45:00.000Z",
+      "createdAt": "2024-01-14T11:45:00.000Z"
+    },
+    {
+      "id": "32",
+      "productId": "15",
+      "type": "in",
+      "quantity": 53,
+      "reason": "Stock transfer in",
+      "performedBy": "Charles Bailey",
+      "movementDate": "2024-02-17T12:45:00.000Z",
+      "createdAt": "2024-02-17T12:45:00.000Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "olivia.anderson",
+      "email": "olivia.anderson@erp.com",
+      "firstName": "Olivia",
+      "lastName": "Anderson",
+      "fullName": "Olivia Anderson",
+      "roles": [
+        "admin"
+      ],
+      "isActive": true,
+      "createdAt": "2023-01-02T20:30:00.000Z"
+    },
+    {
+      "id": "2",
+      "username": "liam.clark",
+      "email": "liam.clark@erp.com",
+      "firstName": "Liam",
+      "lastName": "Clark",
+      "fullName": "Liam Clark",
+      "roles": [
+        "manager"
+      ],
+      "isActive": true,
+      "createdAt": "2024-02-03T20:30:00.000Z"
+    },
+    {
+      "id": "3",
+      "username": "emma.walker",
+      "email": "emma.walker@erp.com",
+      "firstName": "Emma",
+      "lastName": "Walker",
+      "fullName": "Emma Walker",
+      "roles": [
+        "staff"
+      ],
+      "isActive": true,
+      "createdAt": "2025-03-04T20:30:00.000Z"
+    },
+    {
+      "id": "4",
+      "username": "noah.young",
+      "email": "noah.young@erp.com",
+      "firstName": "Noah",
+      "lastName": "Young",
+      "fullName": "Noah Young",
+      "roles": [
+        "manager",
+        "staff"
+      ],
+      "isActive": true,
+      "createdAt": "2023-04-05T20:30:00.000Z"
+    },
+    {
+      "id": "5",
+      "username": "ava.allen",
+      "email": "ava.allen@erp.com",
+      "firstName": "Ava",
+      "lastName": "Allen",
+      "fullName": "Ava Allen",
+      "roles": [
+        "admin"
+      ],
+      "isActive": true,
+      "createdAt": "2024-05-06T20:30:00.000Z"
+    },
+    {
+      "id": "6",
+      "username": "ethan.king",
+      "email": "ethan.king@erp.com",
+      "firstName": "Ethan",
+      "lastName": "King",
+      "fullName": "Ethan King",
+      "roles": [
+        "manager"
+      ],
+      "isActive": true,
+      "createdAt": "2025-06-07T20:30:00.000Z"
+    },
+    {
+      "id": "7",
+      "username": "sophia.wright",
+      "email": "sophia.wright@erp.com",
+      "firstName": "Sophia",
+      "lastName": "Wright",
+      "fullName": "Sophia Wright",
+      "roles": [
+        "staff"
+      ],
+      "isActive": true,
+      "createdAt": "2023-07-08T20:30:00.000Z"
+    },
+    {
+      "id": "8",
+      "username": "mason.scott",
+      "email": "mason.scott@erp.com",
+      "firstName": "Mason",
+      "lastName": "Scott",
+      "fullName": "Mason Scott",
+      "roles": [
+        "manager",
+        "staff"
+      ],
+      "isActive": false,
+      "createdAt": "2024-08-09T20:30:00.000Z"
+    },
+    {
+      "id": "9",
+      "username": "isabella.torres",
+      "email": "isabella.torres@erp.com",
+      "firstName": "Isabella",
+      "lastName": "Torres",
+      "fullName": "Isabella Torres",
+      "roles": [
+        "admin"
+      ],
+      "isActive": true,
+      "createdAt": "2025-09-10T20:30:00.000Z"
+    },
+    {
+      "id": "10",
+      "username": "lucas.hill",
+      "email": "lucas.hill@erp.com",
+      "firstName": "Lucas",
+      "lastName": "Hill",
+      "fullName": "Lucas Hill",
+      "roles": [
+        "manager"
+      ],
+      "isActive": true,
+      "createdAt": "2023-10-11T20:30:00.000Z"
+    },
+    {
+      "id": "11",
+      "username": "mia.green",
+      "email": "mia.green@erp.com",
+      "firstName": "Mia",
+      "lastName": "Green",
+      "fullName": "Mia Green",
+      "roles": [
+        "staff"
+      ],
+      "isActive": true,
+      "createdAt": "2024-11-12T20:30:00.000Z"
+    },
+    {
+      "id": "12",
+      "username": "logan.adams",
+      "email": "logan.adams@erp.com",
+      "firstName": "Logan",
+      "lastName": "Adams",
+      "fullName": "Logan Adams",
+      "roles": [
+        "manager",
+        "staff"
+      ],
+      "isActive": true,
+      "createdAt": "2025-12-13T20:30:00.000Z"
+    },
+    {
+      "id": "13",
+      "username": "amelia.baker",
+      "email": "amelia.baker@erp.com",
+      "firstName": "Amelia",
+      "lastName": "Baker",
+      "fullName": "Amelia Baker",
+      "roles": [
+        "admin"
+      ],
+      "isActive": true,
+      "createdAt": "2023-01-14T20:30:00.000Z"
+    },
+    {
+      "id": "14",
+      "username": "jacob.nelson",
+      "email": "jacob.nelson@erp.com",
+      "firstName": "Jacob",
+      "lastName": "Nelson",
+      "fullName": "Jacob Nelson",
+      "roles": [
+        "manager"
+      ],
+      "isActive": true,
+      "createdAt": "2024-02-15T20:30:00.000Z"
+    },
+    {
+      "id": "15",
+      "username": "harper.carter",
+      "email": "harper.carter@erp.com",
+      "firstName": "Harper",
+      "lastName": "Carter",
+      "fullName": "Harper Carter",
+      "roles": [
+        "staff"
+      ],
+      "isActive": true,
+      "createdAt": "2025-03-16T20:30:00.000Z"
+    },
+    {
+      "id": "16",
+      "username": "elijah.mitchell",
+      "email": "elijah.mitchell@erp.com",
+      "firstName": "Elijah",
+      "lastName": "Mitchell",
+      "fullName": "Elijah Mitchell",
+      "roles": [
+        "manager",
+        "staff"
+      ],
+      "isActive": false,
+      "createdAt": "2023-04-17T20:30:00.000Z"
+    },
+    {
+      "id": "17",
+      "username": "evelyn.perez",
+      "email": "evelyn.perez@erp.com",
+      "firstName": "Evelyn",
+      "lastName": "Perez",
+      "fullName": "Evelyn Perez",
+      "roles": [
+        "admin"
+      ],
+      "isActive": true,
+      "createdAt": "2024-05-18T20:30:00.000Z"
+    },
+    {
+      "id": "18",
+      "username": "james.roberts",
+      "email": "james.roberts@erp.com",
+      "firstName": "James",
+      "lastName": "Roberts",
+      "fullName": "James Roberts",
+      "roles": [
+        "manager"
+      ],
+      "isActive": true,
+      "createdAt": "2025-06-19T20:30:00.000Z"
+    },
+    {
+      "id": "19",
+      "username": "abigail.turner",
+      "email": "abigail.turner@erp.com",
+      "firstName": "Abigail",
+      "lastName": "Turner",
+      "fullName": "Abigail Turner",
+      "roles": [
+        "staff"
+      ],
+      "isActive": true,
+      "createdAt": "2023-07-20T20:30:00.000Z"
+    },
+    {
+      "id": "20",
+      "username": "benjamin.phillips",
+      "email": "benjamin.phillips@erp.com",
+      "firstName": "Benjamin",
+      "lastName": "Phillips",
+      "fullName": "Benjamin Phillips",
+      "roles": [
+        "manager",
+        "staff"
+      ],
+      "isActive": true,
+      "createdAt": "2024-08-21T20:30:00.000Z"
+    },
+    {
+      "id": "21",
+      "username": "ella.campbell",
+      "email": "ella.campbell@erp.com",
+      "firstName": "Ella",
+      "lastName": "Campbell",
+      "fullName": "Ella Campbell",
+      "roles": [
+        "admin"
+      ],
+      "isActive": true,
+      "createdAt": "2025-09-22T20:30:00.000Z"
+    },
+    {
+      "id": "22",
+      "username": "michael.parker",
+      "email": "michael.parker@erp.com",
+      "firstName": "Michael",
+      "lastName": "Parker",
+      "fullName": "Michael Parker",
+      "roles": [
+        "manager"
+      ],
+      "isActive": true,
+      "createdAt": "2023-10-23T20:30:00.000Z"
+    },
+    {
+      "id": "23",
+      "username": "scarlett.evans",
+      "email": "scarlett.evans@erp.com",
+      "firstName": "Scarlett",
+      "lastName": "Evans",
+      "fullName": "Scarlett Evans",
+      "roles": [
+        "staff"
+      ],
+      "isActive": true,
+      "createdAt": "2024-11-24T20:30:00.000Z"
+    },
+    {
+      "id": "24",
+      "username": "alexander.edwards",
+      "email": "alexander.edwards@erp.com",
+      "firstName": "Alexander",
+      "lastName": "Edwards",
+      "fullName": "Alexander Edwards",
+      "roles": [
+        "manager",
+        "staff"
+      ],
+      "isActive": false,
+      "createdAt": "2025-12-25T20:30:00.000Z"
+    },
+    {
+      "id": "25",
+      "username": "grace.collins",
+      "email": "grace.collins@erp.com",
+      "firstName": "Grace",
+      "lastName": "Collins",
+      "fullName": "Grace Collins",
+      "roles": [
+        "admin"
+      ],
+      "isActive": true,
+      "createdAt": "2023-01-26T20:30:00.000Z"
+    },
+    {
+      "id": "26",
+      "username": "daniel.stewart",
+      "email": "daniel.stewart@erp.com",
+      "firstName": "Daniel",
+      "lastName": "Stewart",
+      "fullName": "Daniel Stewart",
+      "roles": [
+        "manager"
+      ],
+      "isActive": true,
+      "createdAt": "2024-02-02T20:30:00.000Z"
+    },
+    {
+      "id": "27",
+      "username": "chloe.sanchez",
+      "email": "chloe.sanchez@erp.com",
+      "firstName": "Chloe",
+      "lastName": "Sanchez",
+      "fullName": "Chloe Sanchez",
+      "roles": [
+        "staff"
+      ],
+      "isActive": true,
+      "createdAt": "2025-03-03T20:30:00.000Z"
+    },
+    {
+      "id": "28",
+      "username": "henry.morris",
+      "email": "henry.morris@erp.com",
+      "firstName": "Henry",
+      "lastName": "Morris",
+      "fullName": "Henry Morris",
+      "roles": [
+        "manager",
+        "staff"
+      ],
+      "isActive": true,
+      "createdAt": "2023-04-04T20:30:00.000Z"
+    },
+    {
+      "id": "29",
+      "username": "victoria.rogers",
+      "email": "victoria.rogers@erp.com",
+      "firstName": "Victoria",
+      "lastName": "Rogers",
+      "fullName": "Victoria Rogers",
+      "roles": [
+        "admin"
+      ],
+      "isActive": true,
+      "createdAt": "2024-05-05T20:30:00.000Z"
+    },
+    {
+      "id": "30",
+      "username": "sebastian.reed",
+      "email": "sebastian.reed@erp.com",
+      "firstName": "Sebastian",
+      "lastName": "Reed",
+      "fullName": "Sebastian Reed",
+      "roles": [
+        "manager"
+      ],
+      "isActive": true,
+      "createdAt": "2025-06-06T20:30:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Electronics",
+      "description": "Consumer electronics and gadgets",
+      "isActive": true,
+      "createdAt": "2023-01-04T20:30:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "Furniture",
+      "description": "Home and office furniture",
+      "isActive": true,
+      "createdAt": "2023-02-05T20:30:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "Appliances",
+      "description": "Household and kitchen appliances",
+      "isActive": true,
+      "createdAt": "2023-03-06T20:30:00.000Z"
+    },
+    {
+      "id": "4",
+      "name": "Office Supplies",
+      "description": "Everyday office and stationery essentials",
+      "isActive": true,
+      "createdAt": "2023-04-07T20:30:00.000Z"
+    },
+    {
+      "id": "5",
+      "name": "Networking",
+      "description": "Networking hardware and accessories",
+      "isActive": true,
+      "createdAt": "2023-05-08T20:30:00.000Z"
+    },
+    {
+      "id": "6",
+      "name": "Kitchenware",
+      "description": "Cookware and kitchen tools",
+      "isActive": true,
+      "createdAt": "2023-06-09T20:30:00.000Z"
+    },
+    {
+      "id": "7",
+      "name": "Tools",
+      "description": "Hand tools and power tools",
+      "isActive": true,
+      "createdAt": "2023-07-10T20:30:00.000Z"
+    },
+    {
+      "id": "8",
+      "name": "Lighting",
+      "description": "Indoor and outdoor lighting fixtures",
+      "isActive": true,
+      "createdAt": "2023-08-11T20:30:00.000Z"
+    },
+    {
+      "id": "9",
+      "name": "Stationery",
+      "description": "Paper goods and writing supplies",
+      "isActive": true,
+      "createdAt": "2023-09-12T20:30:00.000Z"
+    },
+    {
+      "id": "10",
+      "name": "Outdoor",
+      "description": "Outdoor and garden equipment",
+      "isActive": true,
+      "createdAt": "2023-10-13T20:30:00.000Z"
+    },
+    {
+      "id": "11",
+      "name": "Software",
+      "description": "Software licenses and digital products",
+      "isActive": true,
+      "createdAt": "2023-11-14T20:30:00.000Z"
+    },
+    {
+      "id": "12",
+      "name": "Automotive",
+      "description": "Car parts and accessories",
+      "isActive": true,
+      "createdAt": "2023-12-15T20:30:00.000Z"
+    },
+    {
+      "id": "13",
+      "name": "Health & Beauty",
+      "description": "Personal care and wellness products",
+      "isActive": true,
+      "createdAt": "2023-01-16T20:30:00.000Z"
+    },
+    {
+      "id": "14",
+      "name": "Sporting Goods",
+      "description": "Sports and fitness equipment",
+      "isActive": false,
+      "createdAt": "2023-02-17T20:30:00.000Z"
+    }
+  ],
+  "warehouses": [
+    {
+      "id": "1",
+      "name": "East Coast Distribution Center",
+      "code": "WH-EAST",
+      "address": "4500 Logistics Pkwy",
+      "city": "Newark",
+      "state": "NJ",
+      "managerName": "Daniel Reyes",
+      "phone": "(973) 555-0142",
+      "capacity": 50000,
+      "isActive": true,
+      "createdAt": "2022-01-03T20:30:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "West Coast Fulfillment Hub",
+      "code": "WH-WEST",
+      "address": "1200 Harbor Blvd",
+      "city": "Long Beach",
+      "state": "CA",
+      "managerName": "Priya Nair",
+      "phone": "(562) 555-0198",
+      "capacity": 62000,
+      "isActive": true,
+      "createdAt": "2022-03-04T20:30:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "Midwest Regional Warehouse",
+      "code": "WH-MID",
+      "address": "780 Industrial Dr",
+      "city": "Columbus",
+      "state": "OH",
+      "managerName": "Marcus Webb",
+      "phone": "(614) 555-0173",
+      "capacity": 45000,
+      "isActive": true,
+      "createdAt": "2022-05-05T19:30:00.000Z"
+    },
+    {
+      "id": "4",
+      "name": "South Central Depot",
+      "code": "WH-SOUTH",
+      "address": "3300 Freight Rd",
+      "city": "Dallas",
+      "state": "TX",
+      "managerName": "Lauren Brooks",
+      "phone": "(214) 555-0165",
+      "capacity": 38000,
+      "isActive": true,
+      "createdAt": "2022-07-06T19:30:00.000Z"
+    },
+    {
+      "id": "5",
+      "name": "Pacific Northwest Facility",
+      "code": "WH-PNW",
+      "address": "890 Cascade Ave",
+      "city": "Tacoma",
+      "state": "WA",
+      "managerName": "Kenji Watanabe",
+      "phone": "(253) 555-0187",
+      "capacity": 30000,
+      "isActive": true,
+      "createdAt": "2023-09-07T20:30:00.000Z"
+    },
+    {
+      "id": "6",
+      "name": "Southeast Distribution Point",
+      "code": "WH-SE",
+      "address": "2210 Peachtree Industrial Blvd",
+      "city": "Atlanta",
+      "state": "GA",
+      "managerName": "Angela Foster",
+      "phone": "(404) 555-0121",
+      "capacity": 41000,
+      "isActive": true,
+      "createdAt": "2023-11-08T20:30:00.000Z"
+    },
+    {
+      "id": "7",
+      "name": "Mountain Region Warehouse",
+      "code": "WH-MTN",
+      "address": "560 Rockies Way",
+      "city": "Denver",
+      "state": "CO",
+      "managerName": "Trevor Hale",
+      "phone": "(303) 555-0154",
+      "capacity": 27000,
+      "isActive": true,
+      "createdAt": "2023-01-09T20:30:00.000Z"
+    },
+    {
+      "id": "8",
+      "name": "Northeast Overflow Storage",
+      "code": "WH-NE-OF",
+      "address": "90 Depot St",
+      "city": "Hartford",
+      "state": "CT",
+      "managerName": "Samantha Ortiz",
+      "phone": "(860) 555-0139",
+      "capacity": 15000,
+      "isActive": false,
+      "createdAt": "2023-03-10T20:30:00.000Z"
+    }
+  ],
+  "rolePermissions": [
+    {
+      "id": "admin",
+      "permissions": [
+        "view_dashboard",
+        "view_reports",
+        "view_customers",
+        "create_customers",
+        "edit_customers",
+        "delete_customers",
+        "view_products",
+        "create_products",
+        "edit_products",
+        "delete_products",
+        "view_categories",
+        "create_categories",
+        "edit_categories",
+        "delete_categories",
+        "view_suppliers",
+        "create_suppliers",
+        "edit_suppliers",
+        "delete_suppliers",
+        "view_warehouses",
+        "create_warehouses",
+        "edit_warehouses",
+        "delete_warehouses",
+        "view_inventory",
+        "create_inventory",
+        "view_purchases",
+        "create_purchases",
+        "edit_purchases",
+        "delete_purchases",
+        "view_sales",
+        "create_sales",
+        "edit_sales",
+        "delete_sales",
+        "view_employees",
+        "create_employees",
+        "edit_employees",
+        "delete_employees",
+        "view_orders",
+        "create_orders",
+        "edit_orders",
+        "delete_orders",
+        "view_users",
+        "manage_users"
+      ]
+    },
+    {
+      "id": "manager",
+      "permissions": [
+        "view_dashboard",
+        "view_reports",
+        "view_customers",
+        "create_customers",
+        "edit_customers",
+        "view_products",
+        "create_products",
+        "edit_products",
+        "view_categories",
+        "create_categories",
+        "edit_categories",
+        "view_suppliers",
+        "create_suppliers",
+        "edit_suppliers",
+        "view_warehouses",
+        "create_warehouses",
+        "edit_warehouses",
+        "view_inventory",
+        "create_inventory",
+        "view_purchases",
+        "create_purchases",
+        "edit_purchases",
+        "view_sales",
+        "create_sales",
+        "edit_sales",
+        "view_orders",
+        "create_orders",
+        "edit_orders",
+        "view_employees",
+        "view_users"
+      ]
+    },
+    {
+      "id": "staff",
+      "permissions": [
+        "view_dashboard",
+        "view_customers",
+        "view_products",
+        "view_categories",
+        "view_suppliers",
+        "view_warehouses",
+        "view_inventory",
+        "view_purchases",
+        "view_sales",
+        "view_orders"
+      ]
+    }
+  ],
+  "companySettings": {
+    "name": "Meridian Supply Co.",
+    "email": "contact@meridiansupply.com",
+    "phone": "(312) 555-0100",
+    "address": "850 Riverside Plaza, Chicago, IL 60606",
+    "taxId": "36-1234567",
+    "logoUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUTEhIWEhUVFRUVFRcVEhUVFhUQFRUWFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OFxAQFysZHR0rLS0rKysrLS0tLSstLS0tKystLSstKy0tLSstLS0tLS0tKy0tNzctKys3KystKystK//AABEIAMIBAwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAECAwUGBwj/xAA8EAABAwMBBQYDBgQGAwAAAAABAAIRAwQhMQUSQVFhBiJxgZGhE7HBBzJCgtHwFFJy4RUjU2Ki8TOSwv/EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACMRAQEAAgIDAAEFAQAAAAAAAAABAhEDIQQSMUETMkJRYRT/2gAMAwEAAhEDEQA/AATs46pjQhdbU2ZAWNeUIXJM410zGthV1WyjW0VJ1BFqbGP8FRexajrdQ+Akn1ZbaJRlnSgooW6m2nCe+j9UxhC3lQq170JXU4ztHqFqVSq2VSpVGqNNhla7MbbPzK1aV0+IBWdb0lpURCm5BB7CTJyVfQpKT3ApmVoUVXxpW1JF/DA1wsSrttlMdVze1+1D34bgLTDgzz/xF5JHY320KNMZcFg1+0VEnAC4mveudlxlDmsuvHxcZ9Z3lyd/TvKdQYIUHsXEUbgjIMLcsNs8Hqc/H13BOT+2wkXqttQESFXUesGm1pcnbVQDq6tpVZSG2lTr9EQ2qEFSYTwRFOiSVGV0LkucAUNUt0WKEKBGVnOSsd7ZdzarMq0iF01ams+4orXDNcxY0pK51EpLX2PT2S4oSsq42WHLcquVC4N9uiVg/wCEgc1U+yAW3cOgLOc6TA1KqU2TWtAhXUwF0w2cYWXeWeU/1JCtZm6n/hyVrW1oAizaYwFll5EnxG3L1rQoR9sV01VgGoVH8ODwVY8xybYDbRXMtByW8ywU3WYC0vLsXBi07ZORC069INEnC4zb3amnSJa3vFPjxyyvSL02Li4DRkwse922wYByuF2nt+pVOTA5ICndGcld3FwyXtGW66u62nKzalYlD0ahci2W06rukYfAxcpbyMFq1UXVONEaGw3x4V9K8as+pIVDqsJWnrbrdnX+6dcLdB3hIXmjb5w4rruzG1d4bpK5ObGZdxpjLPrUq0VobIsi4glQawFbuyqYbC5buHl8GNshCdttC02AQsu7vBMBY8t3OmN3Tmmsy7wUa26WfWfJWHFvfa+Kd9k18p3NCqJTF66Y6ZVL6YlJW7qSrstvQK9cyosulW+qFU0hcem57q4ngm2U2TJUXtTW90GHKe+hMW6GIO7t946KLNptOAZR1JwWOW6i4hqdgFe6nGFY56aQrx4oixl3VlKGZYwtetVACwto7cYziFU4rb0rHoc2gAMlBXN21vFcX2h7bfDad3JOAOE8yuBvO09xVPeqOHRuAujDxb+V3kmnY9se1GtOmfErzS6rSTmURWuy4Hez14rPc1ehhJhjqOezd3TFSp6qKtoW5dp6qpexWjQuwBACJZcToqaFm0dfZECo1ugXTK57DGseqr+JPFO65LuGOqTLMuEjHmlsaU1jAWbXWhcWlRo0keqy36qM700whlo7Ic5rgW+iz2tkwi2VIG60kDieJP0WU6aWbdxa7TaI3ntaepXS2G0WkCHA+BBXlbaU8Rpz4/or7S7dRIcHSNDBwfJTlJfqfV7H/iA3YlZ51lcva7Y0zrHutuzvg4arLPx9dxEsFucmCrqVgqv4kLmy4qfwQ8SmFBVmuFZTuQqxwrbHtaLcpJxdhJP1qvV1dWkoUqS2q1GVCnbxquPa9s+rTwuc2tXIXXXrmNGVwnaC/bmIV8eFyp++oHtdpODuS6i02xAyV5lU2hBVdXbRA1XVPFtZfrPULvtK0DBWRcdsgNT7rzO9287+ZYVxtJzjqtsfHwxnabna9G2v27JBDTK4+82+95y4+S551UnUq60oF56LXHGT5Cv+rry43iPBOKONY8FdfWwABHDBQ9CtwRlOzl6U1IHPzVBRN08EoVAXOo90HTj4o6waS3T9hZ7CTA4fJbuzRus3XTGcASefkFUqcviqI4qxmudFdXtp3YESRM+KurW3ckccAcPPotNsg1yGwCOJ9VW1nlKvlhjh8vL2RVS0+6Rn0S9hoA1gnJPkgtp0Wg6QVv0KDcGNfTisjbNq9z96Jgfh5KbVYsurS3QCNHJqZkwoOadFO0Gcqa0aHwRHEge6pq0iRxA8MeSlXdAny14qFPvFoOFP0/jXquDYDZgARMTEcYRFnfFpQ1bOVQSuidTTnvddG/asjVAnajp4rKFZFW4lZ54T6rGtAbRcNVS7bpCGuWluCIWFe1DKx6ax1A7RJlyALuqZPUPb6uqXDRqVjbU7RspjVcZ2j7VhpIBkrz3a+231Jl0Dkubi8bfdVllJ8dh2g7abxIa6VylztVz8krnXVimNwV24YY4/Gd3WlXvoQFW8cUPqrG0k7laJigSSkGqzcRFChvFTpd1ELS0LytdlINwFdRpim2UPvTlbY46Y5ZbV3WQVkFxGdOS0a9aFn3R7yjkn5Vgqc6dVZQpzwnl4pqNIla9vRA4R5qJFW6R2bZz94Y4nktelTAGnih6b/flxR1EQASdMx/ZFQpq0nDprr9FF5Ibnl/0j6jgSDMQPFO6gDwn6qpU6Z1RjGtwMkRHLqnY93DHgETVtN5x3dAPYJVHANhoyYE8uie4DUJxJjy9k7qmRp9YUX1c+nvoJCevTLdMyPQePPqpNm31pvGRiNPr9VgVQQV1ZcBqdfFZ9zZNdImDzj+6LF45aYxrF0AnA0Wlsu1BIJMxnwQVayg/e9RH6rQ2Iw5nlGqUPK9CnhUvRFV0IZ5WrELWci9l3EPCAruTW9SCClfgepUthivTmOCyK3YY6geq7v7PnCpRB1wF1da1aRovJ5ea45adWOM08ab2WjG7p0SXq5sxySWX/AFUesfNtzfF5JJQdWpKrlMvYuTOQlJjZKij7GniVM7M1O2U/holzUzGyqLainQk6LUtaIaEqFIBNVfyWmMZ5VG6qThUE4TvcqKjuCqpkUVhqoGkXubw7o9lZXbClaHulx4CB6qMu1Y9CqVEDT16q+iwFBtuARjT3R9iJY6DDuCPhd1aKO8QGforb5rqdMExqR5EarY7DbAbeXApVXvpD4bnyww4vaQO7vAiMro9t/ZXUfvfArOcQ0R8YNDX690OZkEQMlsZWGfLN6Xjh+XnYqExBwOscMI+hU3u8OA58eiBpUg1hY6WuaXBw4giQR6gZRlq2AABE6Dh6qsSqwVHNEc9fAygqzyNMaAk8TMlHd4j+375rKvKBBwZz6hVSiN5dEZGkj5R+q0bcmrSaRGmk5yTCzaGzqlxUZQpj4lR5w0RgnmeAhejbI+yy6aYqVqbO6DIDqgBky1uRkAaxGVHvJV+u3EPt3aFpQ5EGCtXtVbvta1SkysaopkAvDQ3vEd4RnQ4QFbvNY45cQZ6wrmW4izSs2+8I58VHZ1vuBzeIcD4ghSFYhw9vBGURJLuYjzBxPkkf4Z1wMoSq5F3p7xWfWetIgNVKgwpPcoNKKqR7b9klYmnC9CuKm6vOPsoeBTHgu9vKwXh+T++ujGdBalw6UlQbgJLm9D0+ZUkkl7zMgtW2ZAQFqyXI99SFeM6KrS5XUGIag0laNNkBXImnqOgIIuUrmtmJVKvaFrWEiVRVBBRtE4UKoBCm0Rm3rtEzXf5X5vorb6n3Z5Iamf8ALPj8wptaQ1B2Vt7KMHJxofArCt9QjWVd04Kf4TZ26mlfvtXtIJDm9+nUGo6HmNQV1F19qVw6gQ2mGvIj4oGAeJAJiVwllftdDKnDQo24+G1sDjnzWdwl+jbOFQh5qESDrnJPGfFXUbyDrvAR08ULfP3hAwCR6Ku1piYjh/0qmOha2Ke0GccGOWFRQrAvORnSfohKlOFW0QilGns+o61rCozvPa4OafA9F1O0PtQvNwsc1rN4EbzGkOg8jOFzWzam8N0mS4H2V/8AhYf+sKPWK9gtC4/iDBBa0S48S53EuKrq1gXBjYgA5581fVqNosLGmXOj0/VZhMQRxH1VEduXkLVa+BpwE+PNYjakPJWrQuN4HwGeqPyTM2jVysmo9aG18FZD3KxJtIlNT1UJU6WqS9aesdgKu6weC6+vc4yVwPYq5hoXT3Nxhedy4byaY3oSbsc0ljlxTKP0z9njaSSS70CrPmrZkqpmGqr4i1Js2hVlzVxjKCoVIaoVa2RCuIqG93ijLZVsEmSAZ8j6hGUGsHBw8wfolaSJqRKz33J58UfdmnrvuH5Af/pZvw6f+r603D5SptVMRZyzxCzqH3XDln6LUo7m6AKrPVw+YCpp2bg87sODgRIc0n0lSc6AspwA7r7K4DiqLlrmmHT5yFK1eOKcosXnEQtW3Jc0E5IEBZjGwCeC1LAZHIifZVEUowRzIKi2nHFEvZJj99VJ1OMASqqUXCQh3U/ZFCm7iCq64MDClSy0yQRjPyRlbbMbzQ3BnI18VDZ9CSDpEE+ay7tneIUUCGUJyck8J4cyoXVuWtknTRNb1d08/wBFTe1gTrKSpEaVKSfDCPsaTgwktI4aFANeCIEZUritBFMYjWEQWKO0DCN0xCxSVo7cPeA6LNTtPH4SnTKgnaUSnXbdkK/Bde964Dsu/K66pcRxWHJOxL0M3kll/HKSgvZ5lCspUitpliBwVVSkAuma2PZnVlUwSUReshU0ea0ndPfQgvgQoM1UXqVNsK/iGhRxqo3VwWhMThC/EDgQ50eIJ+SmiRCo6dCCDzMfNUmn/uHrPyVhoD/UZ/y+W6kG0xxc89Buj1Mn2WdyXIiGs4uJ/pb+pCMovpkR3iermg/Iof48fdptb4t3j6ulWMu650L/AMoLR/xwl2Y6o0gS11Xw3Q8f+pgIR9MHO6Cf6HUzPoWq+m6o7Dp83O+iiLQkwX+hd9SE9J2rdRLsCWyfxNkH8wkH2Wwx8dIAHj1WZZ0Q12HuJE4wZ9CVdWrnSD6cuiqJra2c9hlzzDROec9Vo2N1Rce7BPIg/LVczYlzwWO5SJMEOGPqo/4ZWpf5rSe7B1nE8UqJHolCxa4lvcwJODjmsq+dbEmmSJz3mGYI6rmqW1Xu3gHQX4/VVWtmWu3ST5iJnjzKnY03qTN2YP4YxxInKya4cT1zmOKLc87xDdBieZhDEO08/wBUyVMtnuGKb3dQ3djry90zNlPE91p8XsB9N5U1w/ek/Ejh3seqqdtAgwHvB6kqVwQbZ1PLmFoGSSMeuiyqFbfqE9cK2tteoMNqVG9W1HD6oyx2nUI77hUEfjY1x9YlObPTH2nU3qh6YQq07u8pucd6izxY5zD6Zb7IR1Bp+478roafXQ+yVEDpKb6RbqCPEKICcNubAK6am6eK5bZjg0LWo3cLPO9p6boopIVm0BH90ln2NMZ5Q1cI0USVRWpLaJY1yN5QYyBlE3FMNKqrDit8BapeFY2oAOqqe5DlGV0cm14uTxPsq94dfkoJLL2q9J7/ACA88/NS/iXfzHyMD2VXknDug80gIZXedHOH5jHqSrNw/iqE/m+p+gKpaHHUwPfyCvp1Gs8emXHz4J7C2lSaCJEnkd4k+Qz/AMUYyvu6Ngdd0R5CT6hZjrmTAEdBn1OnsqnXB5z++evojZabFe5n8R9ceWfog6NbdPM5g59p4oDfJ4x+/dHUKQc0EzjlienRVsrBNFxDpB4Dh58FqVr9zQ0a/KB0QOz9nVTDtwwcDBieQK7TYvY74rg6s8NbxazLj0nQLPPOT6vj4cs71HJtuGtcXNGSOIGuQdNEXZ3Mu3i3MajTzXqO2ezdpVptp7gpbo7jmgAtH1HQrhLvs66lULKbm1jG8N0w7dmNCs8OWVtyeNnJ/YAmJMHmf1VNKtnGBJy0mD0IEgjyVle3c1/w3sIfglpPA8VnbSfuyGOJAw6BkHmRxHUZW23Lqy6omretbJknq0BwA/3BpBHmgjc0KmC2k+f976LvKQAfArLNyWuBdM6ioww710d5qytVD8vAqD+dgDXj+tvH95ULg2rselqHVKROgeGkeTiWtI8HE9EzNlOZMVGOMYDiaTj5VQB6Eqm032Am3rEt4tzH5mcPGI6ogbRcGw5jYPAAbruoEFhPlPVObO6Yt1ZVWZfTc0cyDB8HaFDroaFSk7/w1nWzv5SXNZPUEke58ELtBtWmZr0mPDtH7oAd4PZGfFGyZTahGASPMqVMFxV4ZSfpvUz177fUQR7pCi5mcOHNpkfqPNOUqIoyEW2pCCY+VYwEqagcLhJDbwSRottRlchU1q/NENpSJ5IDaTwIhVjN02fd1sqkP3k1Y5UWxwW8hHqNhDFFPbxQxKnNeJkkkliok7SmSQDl6ZJJAPKZJJASBlFW1Qt5GeslBhW0fvDHkrhV3fYDbjqF7RpvcPguqmd4TBe0tBB4ZIC9Xv8AZtOjUJY0NBzjqvn+pI3HAjGuYx+5XYW/2mXEAPDKm60Ab4OI4yNSRjKx5eK29OjxvI/Tvfx39yS4+UIqpbU7OyuLoNBqfCgF+QSXd0ebiPRcBS+0GoO+6lQiR3d50meQHDGvVZG3O29xdUjRJa1m8XBrQBxkNk6gcFlOHPcdHkeXhljrABW2sS6tXqEuqGd2cd4iAQBoAMALnq12SQeOZ6k8ZVlbIAMiMn5ZQJXVZqPP3u7X/Gnz1HB36HqoNcWmWn98iq0+8pMSx4JB+6Z1GCD9fmtI3Mjv5n8QAz/U3R3jg9Ssamc+KPo6dFWuk1ZWswcjM8Rof31yq7Z1SnhrjB1ae80jq04KNtzAxkHUJquFGxszaTHjDdx3IaH+mfl81Q63gyMeGERSaNVOu+Nc8j0680iDwSc+sfNFi1wqqfM6KT6xPgnC0hAH4QUlL4iSYHuvtzUSFh31Zr6mNFqV6GYaZ5LDvmw6VWFCuqZ8k1F0KqUlp7K0KquwhSrAcKpGXwQkkkllVEkkkkCSSSQCSSSQCSSSQBjXy0Rr1GVW58cEOCr6dbmJ/RXshV/cNL+60DAEbob3uOB1VFOXKO8zrp7qXxxBDcHUHieYQELgxjjxVCRSU2mSSSSQOwrRtxIws0LTsz3VX8U5L6b91Sc8pMok5KvoW5doo0natwkJGnIBPDEK4UwDGMKNSSkNq3JtUnMUQ4ymFoaU6t3kkDRW33EPtpokY/Ckkqx+j8sKrr5KKSSpok1MUklX8ShkkklkZJJJIBJJJIBJJJIBJJJIBJBJJOAycJJIBJJJJAkkkkAgtSx+4fFJJXf2ozXW7jnKlvHOUklnSgeg47xyjm/d8k6SUCTPuJmNHJJJAOUySSFP/9k="
+  },
+  "applicationSettings": {
+    "defaultPageSize": 10,
+    "lowStockThreshold": 10,
+    "defaultCurrency": "USD",
+    "dateFormat": "short"
+  },
+  "notifications": [
+    {
+      "id": "5",
+      "type": "info",
+      "category": "new_order",
+      "title": "New order received",
+      "message": "Order ORD-9001 was placed for $1403.99.",
+      "isRead": true,
+      "createdAt": "2026-07-07T14:13:03.999Z",
+      "link": "/orders/1",
+      "updatedAt": "2026-07-07T15:17:17.408Z"
+    },
+    {
+      "id": "1",
+      "type": "error",
+      "category": "low_stock",
+      "title": "Out of stock",
+      "message": "Coffee Maker has 0 units remaining.",
+      "isRead": false,
+      "createdAt": "2026-07-07T13:13:03.998Z",
+      "link": "/inventory"
+    },
+    {
+      "id": "2",
+      "type": "error",
+      "category": "low_stock",
+      "title": "Out of stock",
+      "message": "Bookcase has 0 units remaining.",
+      "isRead": true,
+      "createdAt": "2026-07-07T10:13:03.999Z",
+      "link": "/inventory",
+      "updatedAt": "2026-07-07T15:17:26.318Z"
+    },
+    {
+      "id": "11",
+      "type": "warning",
+      "category": "system",
+      "title": "Scheduled maintenance",
+      "message": "The system will be briefly unavailable this Sunday at 02:00 for maintenance.",
+      "isRead": false,
+      "createdAt": "2026-07-07T09:13:03.999Z"
+    },
+    {
+      "id": "6",
+      "type": "info",
+      "category": "new_order",
+      "title": "New order received",
+      "message": "Order ORD-9002 was placed for $672.79.",
+      "isRead": true,
+      "createdAt": "2026-07-07T09:13:03.999Z",
+      "link": "/orders/2"
+    },
+    {
+      "id": "3",
+      "type": "error",
+      "category": "low_stock",
+      "title": "Out of stock",
+      "message": "Mini Refrigerator has 0 units remaining.",
+      "isRead": true,
+      "createdAt": "2026-07-07T07:13:03.999Z",
+      "link": "/inventory"
+    },
+    {
+      "id": "7",
+      "type": "info",
+      "category": "new_order",
+      "title": "New order received",
+      "message": "Order ORD-9003 was placed for $1034.67.",
+      "isRead": true,
+      "createdAt": "2026-07-07T04:13:03.999Z",
+      "link": "/orders/3"
+    },
+    {
+      "id": "4",
+      "type": "error",
+      "category": "low_stock",
+      "title": "Out of stock",
+      "message": "Knife Block Set has 0 units remaining.",
+      "isRead": true,
+      "createdAt": "2026-07-07T04:13:03.999Z",
+      "link": "/inventory"
+    },
+    {
+      "id": "8",
+      "type": "info",
+      "category": "new_order",
+      "title": "New order received",
+      "message": "Order ORD-9004 was placed for $2268.56.",
+      "isRead": true,
+      "createdAt": "2026-07-06T23:13:03.999Z",
+      "link": "/orders/4"
+    },
+    {
+      "id": "9",
+      "type": "success",
+      "category": "system",
+      "title": "Backup completed",
+      "message": "Nightly database backup finished successfully.",
+      "isRead": true,
+      "createdAt": "2026-07-06T19:13:03.999Z"
+    },
+    {
+      "id": "10",
+      "type": "info",
+      "category": "general",
+      "title": "Welcome to the ERP system",
+      "message": "Explore Dashboard, Orders, and Reports to get started.",
+      "isRead": true,
+      "createdAt": "2026-07-04T15:13:03.999Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "1",
+      "userId": "1",
+      "userName": "Olivia Anderson",
+      "action": "login",
+      "resource": "Auth",
+      "description": "Olivia Anderson signed in.",
+      "ipAddress": "10.0.0.8",
+      "createdAt": "2026-07-07T14:22:31.632Z"
+    },
+    {
+      "id": "31",
+      "userId": "6",
+      "userName": "Ethan King",
+      "action": "export",
+      "resource": "Order",
+      "description": "Exported orders report to CSV.",
+      "ipAddress": "10.0.0.8",
+      "createdAt": "2026-07-07T13:22:31.632Z"
+    },
+    {
+      "id": "16",
+      "userId": "2",
+      "userName": "Liam Clark",
+      "action": "create",
+      "resource": "Order",
+      "resourceId": "1",
+      "description": "Created order ORD-9001.",
+      "ipAddress": "10.0.0.8",
+      "createdAt": "2026-07-07T12:22:31.632Z"
+    },
+    {
+      "id": "21",
+      "userId": "4",
+      "userName": "Noah Young",
+      "action": "status_change",
+      "resource": "Order",
+      "resourceId": "1",
+      "description": "Changed order ORD-9001 status to \"shipped\".",
+      "ipAddress": "10.0.0.8",
+      "createdAt": "2026-07-07T10:22:31.632Z"
+    },
+    {
+      "id": "17",
+      "userId": "3",
+      "userName": "Emma Walker",
+      "action": "create",
+      "resource": "Order",
+      "resourceId": "2",
+      "description": "Created order ORD-9002.",
+      "ipAddress": "10.0.0.31",
+      "createdAt": "2026-07-07T10:22:31.632Z"
+    },
+    {
+      "id": "18",
+      "userId": "4",
+      "userName": "Noah Young",
+      "action": "create",
+      "resource": "Order",
+      "resourceId": "3",
+      "description": "Created order ORD-9003.",
+      "ipAddress": "203.0.113.42",
+      "createdAt": "2026-07-07T08:22:31.632Z"
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "userName": "Liam Clark",
+      "action": "login",
+      "resource": "Auth",
+      "description": "Liam Clark signed in.",
+      "ipAddress": "10.0.0.31",
+      "createdAt": "2026-07-07T08:22:31.632Z"
+    },
+    {
+      "id": "19",
+      "userId": "5",
+      "userName": "Ava Allen",
+      "action": "create",
+      "resource": "Order",
+      "resourceId": "4",
+      "description": "Created order ORD-9004.",
+      "ipAddress": "192.168.1.14",
+      "createdAt": "2026-07-07T06:22:31.632Z"
+    },
+    {
+      "id": "9",
+      "userId": "1",
+      "userName": "Olivia Anderson",
+      "action": "update",
+      "resource": "Product",
+      "resourceId": "1",
+      "description": "Updated product \"Laptop Pro\".",
+      "ipAddress": "192.168.1.14",
+      "createdAt": "2026-07-07T05:22:31.632Z"
+    },
+    {
+      "id": "20",
+      "userId": "6",
+      "userName": "Ethan King",
+      "action": "create",
+      "resource": "Order",
+      "resourceId": "5",
+      "description": "Created order ORD-9005.",
+      "ipAddress": "192.168.1.22",
+      "createdAt": "2026-07-07T04:22:31.632Z"
+    },
+    {
+      "id": "3",
+      "userId": "3",
+      "userName": "Emma Walker",
+      "action": "login",
+      "resource": "Auth",
+      "description": "Emma Walker signed in.",
+      "ipAddress": "203.0.113.42",
+      "createdAt": "2026-07-07T02:22:31.632Z"
+    },
+    {
+      "id": "10",
+      "userId": "2",
+      "userName": "Liam Clark",
+      "action": "update",
+      "resource": "Product",
+      "resourceId": "2",
+      "description": "Updated product \"Wireless Mouse\".",
+      "ipAddress": "192.168.1.22",
+      "createdAt": "2026-07-07T01:22:31.632Z"
+    },
+    {
+      "id": "27",
+      "userId": "1",
+      "userName": "Olivia Anderson",
+      "action": "update",
+      "resource": "Role",
+      "description": "Updated permissions for the \"manager\" role.",
+      "ipAddress": "10.0.0.31",
+      "createdAt": "2026-07-07T00:22:31.632Z"
+    },
+    {
+      "id": "11",
+      "userId": "3",
+      "userName": "Emma Walker",
+      "action": "update",
+      "resource": "Product",
+      "resourceId": "3",
+      "description": "Updated product \"Office Chair\".",
+      "ipAddress": "10.0.0.8",
+      "createdAt": "2026-07-06T21:22:31.632Z"
+    },
+    {
+      "id": "4",
+      "userId": "4",
+      "userName": "Noah Young",
+      "action": "login",
+      "resource": "Auth",
+      "description": "Noah Young signed in.",
+      "ipAddress": "192.168.1.14",
+      "createdAt": "2026-07-06T20:22:31.632Z"
+    },
+    {
+      "id": "12",
+      "userId": "4",
+      "userName": "Noah Young",
+      "action": "update",
+      "resource": "Product",
+      "resourceId": "4",
+      "description": "Updated product \"Coffee Maker\".",
+      "ipAddress": "10.0.0.31",
+      "createdAt": "2026-07-06T17:22:31.632Z"
+    },
+    {
+      "id": "5",
+      "userId": "5",
+      "userName": "Ava Allen",
+      "action": "login",
+      "resource": "Auth",
+      "description": "Ava Allen signed in.",
+      "ipAddress": "192.168.1.22",
+      "createdAt": "2026-07-06T14:22:31.632Z"
+    },
+    {
+      "id": "13",
+      "userId": "5",
+      "userName": "Ava Allen",
+      "action": "update",
+      "resource": "Product",
+      "resourceId": "5",
+      "description": "Updated product \"Notebook Set\".",
+      "ipAddress": "203.0.113.42",
+      "createdAt": "2026-07-06T13:22:31.632Z"
+    },
+    {
+      "id": "22",
+      "userId": "1",
+      "userName": "Olivia Anderson",
+      "action": "update",
+      "resource": "Customer",
+      "resourceId": "1",
+      "description": "Updated contact details for \"John Doe\".",
+      "ipAddress": "10.0.0.31",
+      "createdAt": "2026-07-06T09:22:31.632Z"
+    },
+    {
+      "id": "6",
+      "userId": "6",
+      "userName": "Ethan King",
+      "action": "login",
+      "resource": "Auth",
+      "description": "Ethan King signed in.",
+      "ipAddress": "10.0.0.8",
+      "createdAt": "2026-07-06T08:22:31.632Z"
+    },
+    {
+      "id": "23",
+      "userId": "2",
+      "userName": "Liam Clark",
+      "action": "update",
+      "resource": "Customer",
+      "resourceId": "2",
+      "description": "Updated contact details for \"Jane Smith\".",
+      "ipAddress": "203.0.113.42",
+      "createdAt": "2026-07-06T04:22:31.632Z"
+    },
+    {
+      "id": "7",
+      "userId": "7",
+      "userName": "Sophia Wright",
+      "action": "login",
+      "resource": "Auth",
+      "description": "Sophia Wright signed in.",
+      "ipAddress": "10.0.0.31",
+      "createdAt": "2026-07-06T02:22:31.632Z"
+    },
+    {
+      "id": "28",
+      "userId": "1",
+      "userName": "Olivia Anderson",
+      "action": "update",
+      "resource": "Settings",
+      "description": "Updated application settings.",
+      "ipAddress": "203.0.113.42",
+      "createdAt": "2026-07-05T23:22:31.632Z"
+    },
+    {
+      "id": "24",
+      "userId": "3",
+      "userName": "Emma Walker",
+      "action": "update",
+      "resource": "Customer",
+      "resourceId": "3",
+      "description": "Updated contact details for \"Bob Johnson\".",
+      "ipAddress": "192.168.1.14",
+      "createdAt": "2026-07-05T23:22:31.632Z"
+    },
+    {
+      "id": "8",
+      "userId": "8",
+      "userName": "Mason Scott",
+      "action": "login",
+      "resource": "Auth",
+      "description": "Mason Scott signed in.",
+      "ipAddress": "203.0.113.42",
+      "createdAt": "2026-07-05T20:22:31.632Z"
+    },
+    {
+      "id": "25",
+      "userId": "4",
+      "userName": "Noah Young",
+      "action": "update",
+      "resource": "Customer",
+      "resourceId": "4",
+      "description": "Updated contact details for \"Alice Brown\".",
+      "ipAddress": "192.168.1.22",
+      "createdAt": "2026-07-05T18:22:31.632Z"
+    },
+    {
+      "id": "14",
+      "userId": "3",
+      "userName": "Emma Walker",
+      "action": "create",
+      "resource": "Product",
+      "description": "Created product \"Standing Desk Converter\".",
+      "ipAddress": "192.168.1.14",
+      "createdAt": "2026-07-05T15:22:31.632Z"
+    },
+    {
+      "id": "26",
+      "userId": "5",
+      "userName": "Ava Allen",
+      "action": "update",
+      "resource": "Customer",
+      "resourceId": "5",
+      "description": "Updated contact details for \"Charlie Wilson\".",
+      "ipAddress": "10.0.0.8",
+      "createdAt": "2026-07-05T13:22:31.632Z"
+    },
+    {
+      "id": "29",
+      "userId": "2",
+      "userName": "Liam Clark",
+      "action": "create",
+      "resource": "User",
+      "description": "Created user account \"james.roberts\".",
+      "ipAddress": "192.168.1.14",
+      "createdAt": "2026-07-05T03:22:31.632Z"
+    },
+    {
+      "id": "30",
+      "userId": "2",
+      "userName": "Liam Clark",
+      "action": "delete",
+      "resource": "User",
+      "description": "Deactivated user account \"old.contractor\".",
+      "ipAddress": "192.168.1.22",
+      "createdAt": "2026-07-04T15:22:31.632Z"
+    },
+    {
+      "id": "15",
+      "userId": "5",
+      "userName": "Ava Allen",
+      "action": "delete",
+      "resource": "Product",
+      "description": "Deleted product \"Discontinued Widget\".",
+      "ipAddress": "192.168.1.22",
+      "createdAt": "2026-07-03T15:22:31.632Z"
+    },
+    {
+      "id": "32",
+      "userId": "4",
+      "userName": "Noah Young",
+      "action": "logout",
+      "resource": "Auth",
+      "description": "Noah Young signed out.",
+      "ipAddress": "10.0.0.31",
+      "createdAt": "2026-07-02T15:22:31.632Z"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
